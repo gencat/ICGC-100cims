@@ -1,0 +1,214 @@
+#sidepanel {
+        background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #cacaca;
+    border-radius: 0;
+    color: #333333;
+    display: none;
+    /* float: right; */
+    font-size: 0.9em;
+    opacity: 0.9;
+    padding: 5px 5px 0;
+    position: absolute;
+    left: 289px;
+    top: 6px;
+    z-index: 10;
+
+}
+
+#div_tanca{
+	float:right;
+	margin: 0 5px 10px 1px;
+	cursor:pointer;	
+}	
+
+.tancar_grafic{
+	    float: right;
+    margin: 3px 8px 0px 2px;
+    cursor: pointer;
+    font-size: 1.2em;
+}	
+
+#slider, #slider2{
+ width: 240px;
+}
+
+ i{
+	 cursor:pointer;
+	 font-size: 1em;
+ } 
+ 
+ td {
+    line-height: 14px;
+}
+h1 {
+	font-size: 20px;
+}
+.leaflet-container {
+	background: #eeeeec !important;
+}
+.footnote {
+    cursor:pointer;
+    color:#ffcc00;
+}
+.info {
+   
+    margin-top: 10px;	
+	line-height: 170%;
+}
+._hidden {
+   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0 none;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+#content {
+	padding: 5px;
+    width: 300px;
+}
+#footnotediv {
+    font-style: italic;
+}
+
+input[type=range],
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance:none;
+  margin:0; 
+  /* padding:0; */ 
+  /* border:0; */
+  }
+input[type=range] {
+
+      width: 100%;
+    display: inline-block!important;
+    vertical-align: middle;
+    height: 20px;
+    padding: 0 2px;
+    border: 1px solid #cacaca;
+    background: rgba(53, 52, 52, 0.25);
+    min-width: 100px;
+    overflow: hidden;
+    margin: 0 !important;
+    cursor: pointer;
+  
+   
+  }
+  input[type=range]::-ms-fill-upper { background:transparent; }
+  input[type=range]::-ms-fill-lower { background:rgba(255,255,255,0.25); }
+
+/* Browser thingies */
+input[type=range]::-moz-range-track { opacity:0; }
+input[type=range]::-ms-track        { opacity:0; }
+input[type=range]::-ms-tooltip      { display:none; }
+
+/* For whatever reason, these need to be defined
+ * on their own so dont group them */
+input[type=range]::-webkit-slider-thumb {
+  background:rgba(94,94,115,0.75);
+  height:15px; width:20px;
+  border-radius:10px;
+  cursor:ew-resize;
+  box-shadow:rgba(255,255,255,0.25) -1200px 0 0 1200px;
+  }
+input[type=range]::-ms-thumb {
+  margin:0;padding:0;border:0;
+  background:rgba(255,255,255,0.75);
+  height:12px; width:20px;
+  border-radius:3px;
+  cursor:ew-resize;
+  box-shadow:rgba(255,255,255,0.25) -1200px 0 0 1200px;
+  }
+input[type=range]::-moz-range-thumb {
+  margin:0;padding:0;border:0;
+  background:rgba(255,255,255,0.75);
+  height:12px; width:20px;
+  border-radius:3px;
+  cursor:ew-resize;
+  box-shadow:rgba(255,255,255,0.25) -1200px 0 0 1200px;
+  }
+
+input[type=range]:disabled::-moz-range-thumb { cursor: default;}
+input[type=range]:disabled::-ms-thumb { cursor: default;}
+input[type=range]:disabled::-webkit-slider-thumb { cursor: default;}
+input[type=range]:disabled { cursor: default; }
+
+#note {
+font-size: 14px;
+color:#C9C9C4;
+}
+
+#close {
+width: 30px;
+height: 30px;
+position: absolute;
+right: -5px;
+border-radius: 15px;
+border: solid 2px#ffcc00;
+text-align: center;
+top: -5px;
+
+cursor: pointer;
+font-size: 20px;
+
+}
+#close.open {
+background-image: url('open.png');
+}
+
+
+#s_sol{float:left;font-size: 0.9em;}
+#p_sol{ float:right;font-size: 0.9em;}
+
+	 
+.cesium-viewer-bottom {
+    display: none !important;
+   
+}	
+
+@media screen and (max-width: 480px) {
+	
+	#sidepanel {
+		
+   
+}
+	._hidden{
+    font-size: 1.1em;
+    text-align: center;
+	}
+	
+	#content {
+    padding: 5px;
+    width: 290px;
+}
+	
+	
+}
+
+#div_gr2 {
+    height: 35px;
+    margin: 5px 5px 0;
+}
+
+#div_gr2 div {
+    height: 65px;
+    margin-bottom: 5px;
+    width: 45%;
+}
+
+
+#div_dades_usr {
+   
+    float: left;
+	
+    cursor: pointer;
+    float: left;
+}
+
+
+#div_dades_ext {
+    
+    cursor: pointer;
+    float: right;
+    margin-left: 5px;
+}
+

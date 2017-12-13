@@ -1,0 +1,34 @@
+* { margin: 0; padding: 0; }
+fieldset { border: none }
+
+#search-form {
+	width: 190px;
+	position: relative;
+}
+
+
+.empty {
+	color: #524630;
+}
+
+/* CSS3 */
+#btn_cerca {
+border: 1px solid #cacaca;
+    border-radius: 4px;
+    height: 26px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 90%;
+	
+}
+
+
+	
+#search_panel {
+	   background: rgba(166, 166, 166, 0.5) none no-repeat scroll 0 0;
+    border: 1px solid #8c8b8a;
+    height: 45px;
+    line-height: 3;
+    margin: 5px;
+    padding-top: 5px;
+    text-align: center;
+}	

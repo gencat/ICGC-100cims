@@ -1,0 +1,84 @@
+ @import url(../Cesium/Widgets/widgets.css);
+      #map {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+        padding: 0;
+        font-family: sans-serif;
+      }
+
+      html {
+        height: 100%;
+      }
+
+      body {
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        height: 100%;
+      }
+	  
+	  #bt_close{
+	  float:right;
+	  cursor:pointer;
+	  display:none;
+	  }
+	  
+	  
+	  #info{			  
+			  background-color: #ffffff;
+    border-radius: 0px;
+    bottom: 5px;
+    display: none;
+    font-size: 90%;
+   
+    opacity: 0.85;
+    padding: 10px;
+    position: absolute;
+    right: 205px;
+   
+    z-index: 100;
+			
+	  }
+	  
+	   #llegenda{			  
+			 border-radius: 10px;
+    bottom: 150px;
+    display: block;
+    height: 70px;
+    opacity: 0.75;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    width: 188px;
+    z-index: 100;	  
+	  }
+	  
+	  
+	    #stats{			  
+			 border-radius: 10px;
+    bottom: 50px;
+    display: block;
+    height: 0;
+    opacity: 0.75;
+    padding: 1px;
+    position: absolute;
+    top: 80px;
+    width: auto;
+    z-index: 100;	
+	left: 10px;
+	background-color: #000000;	
+	color:#F4C712 !important;
+	  }
+	  
+	  
+	  
+	 a {color:#fff !important} 
+	 
+	 .cesium-infoBox-title { visibility: hidden !important;color: #4b4b4b !important  }
+	 	 
+	button.cesium-infoBox-camera {display: none;}

@@ -1,0 +1,2183 @@
+{
+	"type" : "FeatureCollection",
+	"crs" : {
+		"type" : "name",
+		"properties" : {
+			"name" : "urn:ogc:def:crs:OGC:1.3:CRS84"
+		}
+	},
+
+	"features" : [{
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#D1D100",
+				"Title" : "Tur&oacute; de Montigal&agrave;",
+				"id" : 2483899,
+				"Serralada" : "Serralada de Marina",
+				"Cota" : "152,02",
+				"Municipi" : "Badalona",
+				"Comarca" : "Barcelon&egrave;s",
+				"Lat" : "41.464778",
+				"Lon" : "2.231142",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/291122006.pdf target=_blank>CE-291122006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/0\/09\/Creu_de_Montigal%C3%A0.jpg\/300px-Creu_de_Montigal%C3%A0.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.23111, 41.46475, 152.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#D1D100",
+				"Title" : "Montjuïc",
+				"id" : 2483897,
+				"Serralada" : "Serralada Litoral Catalana",
+				"Cota" : "177,72",
+				"Municipi" : "Barcelona",
+				"Comarca" : "Fossar nord del Castell Barcelon&egrave;s",
+				"Lat" : "41.363992",
+				"Lon" : "2.16476",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/289127006.pdf target=_blank>CE-289127006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/6\/67\/Castell_de_Montju%C3%AFc_%28Barcelona%29_-_2.jpg\/300px-Castell_de_Montju%C3%AFc_%28Barcelona%29_-_2.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.16471, 41.36402, 177.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#D1D100",
+				"Title" : "Puig de Sant Martiri&agrave;",
+				"id" : 2483878,
+				"Serralada" : null,
+				"Cota" : "242,14",
+				"Municipi" : "Banyoles",
+				"Comarca" : "Pla de l'Estany",
+				"Lat" : "42.154019",
+				"Lon" : "2.862419",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/304090006.pdf target=_blank>CE-304090006<\/a>",
+				"Imatge" : "Fotografia no disponible.",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.76324, 42.13186, 242.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#D1D100",
+				"Title" : "Montsianell",
+				"id" : 2483893,
+				"Serralada" : "Serra del Montsi&agrave;",
+				"Cota" : "292,52",
+				"Municipi" : "Amposta",
+				"Comarca" : "Montsi&agrave;",
+				"Lat" : "40.682222",
+				"Lon" : "0.554444",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/250160006.pdf target=_blank>CE-250160006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/b\/be\/Montsianell10.JPG\/300px-Montsianell10.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [0.55556, 40.6829, 292.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#D1D100",
+				"Title" : "Muntanya del Montgrí",
+				"id" : 2483915,
+				"Serralada" : "Massís del Montgrí",
+				"Cota" : "307,87",
+				"Municipi" : "Torroella de Montgrí",
+				"Comarca" : "Baix Empord&agrave;",
+				"Lat" : "42.052175",
+				"Lon" : "3.131672",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/312094006.pdf target=_blank>CE-312094006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/6\/6e\/Mass%C3%ADs_del_Montgr%C3%AD.JPG\/300px-Mass%C3%ADs_del_Montgr%C3%AD.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [3.13167, 42.05217, 307.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#D1D100",
+				"Title" : "Pilar d'Almenara",
+				"id" : 2483830,
+				"Serralada" : "Serra d'Almenara",
+				"Cota" : "458,88",
+				"Municipi" : "Agramunt",
+				"Comarca" : "Urgell",
+				"Lat" : "41.753386",
+				"Lon" : "1.066974",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/263108006.pdf target=_blank>CE-263108006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/0\/0b\/Castell_Almenara_IMG_2805.JPG\/300px-Castell_Almenara_IMG_2805.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [1.06726, 41.75342, 458.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#D1D100",
+				"Title" : "Muntanya dels &agrave;ngels",
+				"id" : 2483924,
+				"Serralada" : null,
+				"Cota" : "485,19",
+				"Municipi" : "Sant Martí Vell",
+				"Comarca" : "Giron&egrave;s",
+				"Lat" : "41.981422",
+				"Lon" : "2.905614",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/307097006.pdf target=_blank>CE-307097006<\/a>",
+				"Imatge" : "Fotografia no disponible.",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.90871, 41.9845, 485.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#D1D100",
+				"Title" : "Punta de Montmaneu",
+				"id" : 2483926,
+				"Serralada" : null,
+				"Cota" : "494,63",
+				"Municipi" : "Ser&ograve;s",
+				"Comarca" : "Segri&agrave;",
+				"Lat" : "41.388689",
+				"Lon" : "0.401375",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/247126006.pdf target=_blank>CE-247126006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/e\/ed\/Montmeneu62.JPG\/300px-Montmeneu62.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [0.40138, 41.38871, 494.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#D1D100",
+				"Title" : "Sant Mateu",
+				"id" : 2483874,
+				"Serralada" : "Serralada de Marina",
+				"Cota" : "499,01",
+				"Municipi" : "Premi&agrave; de Dalt",
+				"Comarca" : "Maresme",
+				"Lat" : "41.515556",
+				"Lon" : "2.326667",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/293120006.pdf target=_blank>CE-293120006<\/a>",
+				"Imatge" : "Fotografia no disponible.",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.32674, 41.51552, 499.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#D1D100",
+				"Title" : "Puig de ses Cadiretes",
+				"id" : 2483907,
+				"Serralada" : "Serra de l'Ardenya",
+				"Cota" : "518,69",
+				"Municipi" : "Llagostera",
+				"Comarca" : "Giron&egrave;s",
+				"Lat" : "41.757286",
+				"Lon" : "2.928278",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/307108006.pdf target=_blank>CE-307108006<\/a>",
+				"Imatge" : "Fotografia no disponible.",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.92822, 41.75719, 518.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#D1D100",
+				"Title" : "Volc&agrave; del Montsacopa",
+				"id" : 2483853,
+				"Serralada" : null,
+				"Cota" : "532,28",
+				"Municipi" : "Olot",
+				"Comarca" : "Garrotxa",
+				"Lat" : "42.187778",
+				"Lon" : "2.488333",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/297088006.pdf target=_blank>CE-297088006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/b\/bf\/Volc%C3%A0_Montsacopa-Grederes-Olot-Catalunya.jpg\/300px-Volc%C3%A0_Montsacopa-Grederes-Olot-Catalunya.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.48898, 42.18726, 532.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#D1D100",
+				"Title" : "Puig d'Arques",
+				"id" : 2483852,
+				"Serralada" : "Massís de les Gavarres",
+				"Cota" : "532,71",
+				"Municipi" : "Cruïlles, Monells i Sant Sadurní de l'Heura",
+				"Comarca" : "Baix Empord&agrave;",
+				"Lat" : "41.889119",
+				"Lon" : "2.997292",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/309102006.pdf target=_blank>CE-309102006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/c\/cf\/Puig_d%27arques.JPG\/300px-Puig_d%27arques.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.99431, 41.88872, 532.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#D1D100",
+				"Title" : "Tur&oacute; de Céllecs",
+				"id" : 2483895,
+				"Serralada" : "Serralada de Marina",
+				"Cota" : "536,12",
+				"Municipi" : "&ograve;rrius",
+				"Comarca" : "Maresme",
+				"Lat" : "41.556936",
+				"Lon" : "2.338508",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/293118006.pdf target=_blank>CE-293118006<\/a>",
+				"Imatge" : "Fotografia no disponible.",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.33829, 41.55681, 536.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#D1D100",
+				"Title" : "El Pení",
+				"id" : 2483871,
+				"Serralada" : "Serra de Rodes",
+				"Cota" : "607,68",
+				"Municipi" : "Cadaqués",
+				"Comarca" : "Alt Empord&agrave;",
+				"Lat" : "42.282053",
+				"Lon" : "3.243797",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/315083006.pdf target=_blank>CE-315083006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/d\/dd\/Puigpeni_radar.JPG\/300px-Puigpeni_radar.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [3.24321, 42.2814, 607.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#D1D100",
+				"Title" : "Tossa de Montbui",
+				"id" : 2483904,
+				"Serralada" : "Serra de Miralles-Queralt",
+				"Cota" : "619,60",
+				"Municipi" : "Santa Margarida de Montbui",
+				"Comarca" : "Anoia",
+				"Lat" : "41.556975",
+				"Lon" : "1.581486",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/275118006.pdf target=_blank>CE-275118006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/a\/ae\/Creu_al_cim_de_la_Tossa_de_Montbui_01.JPG\/300px-Creu_al_cim_de_la_Tossa_de_Montbui_01.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [1.58151, 41.55702, 619.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#D1D100",
+				"Title" : "Montau",
+				"id" : 2483909,
+				"Serralada" : "Massís del Garraf",
+				"Cota" : "657,57",
+				"Municipi" : "Olesa de Bonesvalls",
+				"Comarca" : "Alt Pened&egrave;s",
+				"Lat" : "41.345853",
+				"Lon" : "1.885013",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/282128006.pdf target=_blank>CE-282128006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/3\/3a\/Montau.jpg\/300px-Montau.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [1.885, 41.34587, 657.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#D1D100",
+				"Title" : "Sant Salvador Saverdera",
+				"id" : 2483841,
+				"Serralada" : "Serra de Rodes",
+				"Cota" : "681,96",
+				"Municipi" : "Palau-Saverdera",
+				"Comarca" : "Alt Empord&agrave;",
+				"Lat" : "42.313528",
+				"Lon" : "3.167667",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/313081006.pdf target=_blank>CE-313081006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/0\/0f\/Castell_de_Verdera_P1120907.JPG\/300px-Castell_de_Verdera_P1120907.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [3.16767, 42.31353, 681.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#D1D100",
+				"Title" : "Mola de Genessies",
+				"id" : 2483846,
+				"Serralada" : "Muntanyes de Tivissa-Vandell&ograve;s",
+				"Cota" : "711,24",
+				"Municipi" : "Tivissa",
+				"Comarca" : "Ribera d'Ebre",
+				"Lat" : "41.01625",
+				"Lon" : "0.785433",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/256144006.pdf target=_blank>CE-256144006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/2\/24\/Moleta_de_Genessies.jpg\/300px-Moleta_de_Genessies.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [0.78543, 41.01627, 711.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#D1D100",
+				"Title" : "Muntanya de Santa B&agrave;rbara",
+				"id" : 2483828,
+				"Serralada" : null,
+				"Cota" : "752,40",
+				"Municipi" : "Horta de Sant Joan",
+				"Comarca" : "Terra Alta",
+				"Lat" : "40.956864",
+				"Lon" : "0.338292",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/245147006.pdf target=_blank>CE-245147006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/2\/24\/Horta_de_Sant_Joan_-_Muntanya_de_Santa_B%C3%A0rbara2.jpg\/300px-Horta_de_Sant_Joan_-_Muntanya_de_Santa_B%C3%A0rbara2.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [0.33833, 40.95688, 752.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#D1D100",
+				"Title" : "Tur&oacute; Gros",
+				"id" : 2483837,
+				"Serralada" : "Massís del Montnegre",
+				"Cota" : "758,01",
+				"Municipi" : "Sant Celoni",
+				"Comarca" : "Vall&egrave;s Oriental",
+				"Lat" : "41.661375",
+				"Lon" : "2.576331",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/299113006.pdf target=_blank>CE-299113006<\/a>",
+				"Imatge" : "Fotografia no disponible.",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.57638, 41.66148, 758.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#D1D100",
+				"Title" : "Torreta de Montsi&agrave;",
+				"id" : 2483930,
+				"Serralada" : "Serra del Montsi&agrave;",
+				"Cota" : "763,05",
+				"Municipi" : "Ulldecona",
+				"Comarca" : "Montsi&agrave;",
+				"Lat" : "40.613367",
+				"Lon" : "0.530144",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/250163006.pdf target=_blank>CE-250163006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/a\/a7\/La_torreta-montsia1.JPG\/300px-La_torreta-montsia1.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [0.53031, 40.61361, 763.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#D1D100",
+				"Title" : "Volc&agrave; de Santa Margarida",
+				"id" : 2483884,
+				"Serralada" : null,
+				"Cota" : "766,05",
+				"Municipi" : "Santa Pau",
+				"Comarca" : "Garrotxa",
+				"Lat" : "42.141944",
+				"Lon" : "2.541389",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/298090006.pdf target=_blank>CE-298090006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/c\/c0\/Volc%C3%A0_de_Santa_Margarida.jpg\/300px-Volc%C3%A0_de_Santa_Margarida.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.54391, 42.14142, 766.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#D1D100",
+				"Title" : "Tossal Gros de Vallbona",
+				"id" : 2483849,
+				"Serralada" : null,
+				"Cota" : "803,61",
+				"Municipi" : "L'Espluga de Francolí",
+				"Comarca" : "Conca de Barber&agrave;",
+				"Lat" : "41.468845",
+				"Lon" : "1.112839",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/264122006.pdf target=_blank>CE-264122006<\/a>",
+				"Imatge" : "Fotografia no disponible.",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [1.113, 41.46878, 803.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#D1D100",
+				"Title" : "Puiggraci&oacute;s",
+				"id" : 2483894,
+				"Serralada" : "Cingles de Bertí",
+				"Cota" : "808,80",
+				"Municipi" : "Figar&oacute;-Montmany",
+				"Comarca" : "Vall&egrave;s Oriental",
+				"Lat" : "41.702975",
+				"Lon" : "2.241281",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/291111006.pdf target=_blank>CE-291111006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/a\/a6\/Masies_serrat_d%27ocata.JPG\/300px-Masies_serrat_d%27ocata.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.24128, 41.70298, 808.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#D1D100",
+				"Title" : "El Farell",
+				"id" : 2483883,
+				"Serralada" : "Serra Llisa",
+				"Cota" : "815,64",
+				"Municipi" : "Caldes de Montbui",
+				"Comarca" : "Vall&egrave;s Oriental",
+				"Lat" : "41.655333",
+				"Lon" : "2.128278",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/288113006.pdf target=_blank>CE-288113006<\/a>",
+				"Imatge" : "Fotografia no disponible.",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.12828, 41.6553, 815.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#D1D100",
+				"Title" : "Puig de la Talaia",
+				"id" : 2483838,
+				"Serralada" : "Serra del Montmell",
+				"Cota" : "861,32",
+				"Municipi" : "El Montmell",
+				"Comarca" : "Baix Pened&egrave;s",
+				"Lat" : "41.337128",
+				"Lon" : "1.471597",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/272128006.pdf target=_blank>CE-272128006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/0\/08\/Serra_del_Montmell_-_1.JPG\/300px-Serra_del_Montmell_-_1.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [1.46672, 41.33578, 861.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#D1D100",
+				"Title" : "Miranda de Llaberia",
+				"id" : 2483859,
+				"Serralada" : "Serra de Llaberia",
+				"Cota" : "918,61",
+				"Municipi" : "Colldejou",
+				"Comarca" : "Baix Camp",
+				"Lat" : "41.092364",
+				"Lon" : "0.862886",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/258140006.pdf target=_blank>CE-258140006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/6\/66\/La_Miranda4a.jpg\/300px-La_Miranda4a.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [0.86289, 41.09236, 918.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#D1D100",
+				"Title" : "Mola de Colldejou",
+				"id" : 2483833,
+				"Serralada" : "Serralada Prelitoral",
+				"Cota" : "921,88",
+				"Municipi" : "Colldejou",
+				"Comarca" : "Baix Camp",
+				"Lat" : "41.108911",
+				"Lon" : "0.874008",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/258139006.pdf target=_blank>CE-258139006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/9\/99\/MolaColldejou.JPG\/300px-MolaColldejou.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [0.8738, 41.10742, 921.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#D1D100",
+				"Title" : "Punta del General",
+				"id" : 2483857,
+				"Serralada" : "Serra de la Llena",
+				"Cota" : "923,52",
+				"Municipi" : "Ulldemolins",
+				"Comarca" : "Priorat",
+				"Lat" : "41.341417",
+				"Lon" : "0.878111",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/258128006.pdf target=_blank>CE-258128006<\/a>",
+				"Imatge" : "Fotografia no disponible.",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [0.87815, 41.34143, 923.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#D1D100",
+				"Title" : "La Creu de Santos",
+				"id" : 2483856,
+				"Serralada" : "Serra de Card&oacute;",
+				"Cota" : "942,30",
+				"Municipi" : "Tivenys",
+				"Comarca" : "Baix Ebre",
+				"Lat" : "40.940522",
+				"Lon" : "0.586047",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/251147006.pdf target=_blank>CE-251147006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/c\/c3\/Tivenys10.JPG\/300px-Tivenys10.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [0.58722, 40.94078, 942.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#9D9D00",
+				"Title" : "Roques de Benet",
+				"id" : 2483881,
+				"Serralada" : null,
+				"Cota" : "1.017,14",
+				"Municipi" : "Horta de Sant Joan",
+				"Comarca" : "Terra Alta",
+				"Lat" : "40.901278",
+				"Lon" : "0.326722",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/245149006.pdf target=_blank>CE-245149006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/a\/af\/Roques_de_Benet.jpg\/300px-Roques_de_Benet.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [0.32655, 40.90064, 1017.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#9D9D00",
+				"Title" : "Puigsallança",
+				"id" : 2483886,
+				"Serralada" : "Serra de Finestres",
+				"Cota" : "1.027,25",
+				"Municipi" : "Sant Aniol de Finestres",
+				"Comarca" : "Garrotxa",
+				"Lat" : "42.115044",
+				"Lon" : "2.581519",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/299091006.pdf target=_blank>CE-299091006<\/a>",
+				"Imatge" : "Fotografia no disponible.",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.58158, 42.11503, 1027.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#9D9D00",
+				"Title" : "La Mussara",
+				"id" : 2483850,
+				"Serralada" : "Serra de la Mussara",
+				"Cota" : "1.054,94",
+				"Municipi" : "Vilaplana",
+				"Comarca" : "Baix Camp",
+				"Lat" : "41.257981",
+				"Lon" : "1.055778",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/262132006.pdf target=_blank>CE-262132006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/7\/7c\/VilaplanaMussara.jpg\/300px-VilaplanaMussara.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [1.05546, 41.25795, 1054.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#9D9D00",
+				"Title" : "Tagamanent",
+				"id" : 2483866,
+				"Serralada" : "Montseny",
+				"Cota" : "1.057,98",
+				"Municipi" : "Tagamanent",
+				"Comarca" : "Vall&egrave;s Oriental",
+				"Lat" : "41.747453",
+				"Lon" : "2.295994",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/292109006.pdf target=_blank>CE-292109006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/9\/95\/Castell_Tagamanent-0594sh.jpg\/300px-Castell_Tagamanent-0594sh.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.29642, 41.74752, 1057.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#9D9D00",
+				"Title" : "La Mola",
+				"id" : 2483920,
+				"Serralada" : "Sant Llorenç del Munt",
+				"Cota" : "1.103,25",
+				"Municipi" : "Matadepera",
+				"Comarca" : "Vall&egrave;s Occidental",
+				"Lat" : "41.641289",
+				"Lon" : "2.017917",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/285114006.pdf target=_blank>CE-285114006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/1\/15\/Vista_des_de_La_Mola_DSC03360.JPG\/300px-Vista_des_de_La_Mola_DSC03360.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.0179, 41.64127, 1103.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#9D9D00",
+				"Title" : "El Mont",
+				"id" : 2483879,
+				"Serralada" : "Serra del Mont",
+				"Cota" : "1.124,81",
+				"Municipi" : "Albany&agrave;",
+				"Comarca" : "Alt Empord&agrave;",
+				"Lat" : "42.258817",
+				"Lon" : "2.705897",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/302084006.pdf target=_blank>CE-302084006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/0\/06\/Mare_de_D%C3%A9u_del_Mont_1.jpg\/300px-Mare_de_D%C3%A9u_del_Mont_1.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.70631, 42.25888, 1124.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#9D9D00",
+				"Title" : "El Far",
+				"id" : 2483890,
+				"Serralada" : "Serralada transversal",
+				"Cota" : "1.125,31",
+				"Municipi" : "Susqueda",
+				"Comarca" : "Selva",
+				"Lat" : "42.021283",
+				"Lon" : "2.536475",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/298095006.pdf target=_blank>CE-298095006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/c\/c0\/El_Far_cim_i_santuari.jpg\/300px-El_Far_cim_i_santuari.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.53689, 42.02108, 1125.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#9D9D00",
+				"Title" : "Roca Corbatera",
+				"id" : 2483842,
+				"Serralada" : "Serra de Montsant",
+				"Cota" : "1.163,12",
+				"Municipi" : "La Morera de Montsant",
+				"Comarca" : "Priorat",
+				"Lat" : "41.288567",
+				"Lon" : "0.891242",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/258131006.pdf target=_blank>CE-258131006<\/a>",
+				"Imatge" : "Fotografia no disponible.",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [0.89123, 41.28858, 1163.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#9D9D00",
+				"Title" : "Mola de Lord",
+				"id" : 2483896,
+				"Serralada" : "Prepirineus",
+				"Cota" : "1.189,26",
+				"Municipi" : "Sant Llorenç de Morunys",
+				"Comarca" : "Solson&egrave;s",
+				"Lat" : "42.116658",
+				"Lon" : "1.581861",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/275091006.pdf target=_blank>CE-275091006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/4\/48\/La_Mola_de_Lord_01.JPG\/300px-La_Mola_de_Lord_01.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [1.58183, 42.11667, 1189.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#9D9D00",
+				"Title" : "Tossal de la Baltasana",
+				"id" : 2483840,
+				"Serralada" : "Muntanyes de Prades",
+				"Cota" : "1.200,88",
+				"Municipi" : "Prades",
+				"Comarca" : "Baix Camp",
+				"Lat" : "41.325994",
+				"Lon" : "1.004181",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/261129006.pdf target=_blank>CE-261129006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/7\/7f\/Cim_del_Tossal_de_la_Baltasana_o_de_la_Torre.JPG\/300px-Cim_del_Tossal_de_la_Baltasana_o_de_la_Torre.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [1.00416, 41.32601, 1200.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#9D9D00",
+				"Title" : "Sant Miquel de Solterra",
+				"id" : 2483900,
+				"Serralada" : "Massís de les Guilleries",
+				"Cota" : "1.202,83",
+				"Municipi" : "Sant Hilari Sacalm",
+				"Comarca" : "Selva",
+				"Lat" : "41.923117",
+				"Lon" : "2.533014",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/298100006.pdf target=_blank>CE-298100006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/7\/7c\/Sant_Miquel_de_Solterra.jpg\/300px-Sant_Miquel_de_Solterra.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.53289, 41.92315, 1202.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#9D9D00",
+				"Title" : "Sant Jeroni",
+				"id" : 2483912,
+				"Serralada" : "Montserrat",
+				"Cota" : "1.235,56",
+				"Municipi" : "Marganell",
+				"Comarca" : "Bages",
+				"Lat" : "41.605344",
+				"Lon" : "1.811325",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/280115006.pdf target=_blank>CE-280115006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/1\/18\/Sant_Jeroni_El_Moro_i_Cavall_Bernat_%28vist_des_de_Tebaida%29.JPG\/300px-Sant_Jeroni_El_Moro_i_Cavall_Bernat_%28vist_des_de_Tebaida%29.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [1.81146, 41.60537, 1235.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#9D9D00",
+				"Title" : "Bellmunt",
+				"id" : 2483847,
+				"Serralada" : "Serra de Bellmunt",
+				"Cota" : "1.248,03",
+				"Municipi" : "Sant Pere de Torell&oacute;",
+				"Comarca" : "Osona",
+				"Lat" : "42.101532",
+				"Lon" : "2.293744",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/292092006.pdf target=_blank>CE-292092006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/e\/ef\/Bellmuntestiu2004.jpg\/300px-Bellmuntestiu2004.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.29372, 42.1015, 1248.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#9D9D00",
+				"Title" : "Puig Neul&oacute;s",
+				"id" : 2483845,
+				"Serralada" : "Serra de l'Albera",
+				"Cota" : "1.257,06",
+				"Municipi" : "La Jonquera",
+				"Comarca" : "Alt Empord&agrave;",
+				"Lat" : "42.482072",
+				"Lon" : "2.946969",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/308073006.pdf target=_blank>CE-308073006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/c\/c5\/Puig_Neul%C3%B2s5.JPG\/300px-Puig_Neul%C3%B2s5.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.94718, 42.48211, 1257.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#9D9D00",
+				"Title" : "Cabrera",
+				"id" : 2483875,
+				"Serralada" : "Serra de Cabrera",
+				"Cota" : "1.307,89",
+				"Municipi" : "Santa Maria de Corc&oacute;",
+				"Comarca" : "Osona",
+				"Lat" : "42.076014",
+				"Lon" : "2.407203",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/295093006.pdf target=_blank>CE-295093006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/7\/77\/V%C3%A8rtex_i_santuari_de_cabrera.JPG\/300px-V%C3%A8rtex_i_santuari_de_cabrera.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.40723, 42.07604, 1307.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#9D9D00",
+				"Title" : "El Negrell",
+				"id" : 2483858,
+				"Serralada" : null,
+				"Cota" : "1.344,93",
+				"Municipi" : "La Sénia",
+				"Comarca" : "Montsi&agrave;",
+				"Lat" : "40.734128",
+				"Lon" : "0.227314",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/242157006.pdf target=_blank>CE-242157006<\/a>",
+				"Imatge" : "Fotografia no disponible.",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [0.22736, 40.73418, 1344.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#9D9D00",
+				"Title" : "Tossal del Rei",
+				"id" : 2483882,
+				"Serralada" : "Ports de Tortosa-Beseit",
+				"Cota" : "1.349,82",
+				"Municipi" : "La Sénia",
+				"Comarca" : "Montsi&agrave;",
+				"Lat" : "40.732239",
+				"Lon" : "0.169372",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/241157006.pdf target=_blank>CE-241157006<\/a>",
+				"Imatge" : "Fotografia no disponible.",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [0.17025, 40.73273, 1349.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#9D9D00",
+				"Title" : "Sant Corneli",
+				"id" : 2483835,
+				"Serralada" : null,
+				"Cota" : "1.351,08",
+				"Municipi" : "Isona i Conca Dell&agrave;",
+				"Comarca" : "Pallars Juss&agrave;",
+				"Lat" : "42.181667",
+				"Lon" : "1.030278",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/261088006.pdf target=_blank>CE-261088006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/1\/1a\/Isona_i_Conca_Dell%C3%A0._Orcau._El_poble%2C_el_castell_i_Sant_Corneli.JPG\/300px-Isona_i_Conca_Dell%C3%A0._Orcau._El_poble%2C_el_castell_i_Sant_Corneli.JPG><p><font size=1>Font: Wikipedia<",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [1.00277, 42.18285, 1351.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#9D9D00",
+				"Title" : "Puig de Bassegoda",
+				"id" : 2483832,
+				"Serralada" : "Pirineus",
+				"Cota" : "1.373,35",
+				"Municipi" : "Albany&agrave;",
+				"Comarca" : "Alt Empord&agrave;",
+				"Lat" : "42.314097",
+				"Lon" : "2.632339",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/300081006.pdf target=_blank>CE-300081006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/5\/50\/Bassegoda.jpg\/300px-Bassegoda.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.63078, 42.31279, 1373.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#9D9D00",
+				"Title" : "Roca Alta",
+				"id" : 2483877,
+				"Serralada" : "Montsec de R&uacute;bies",
+				"Cota" : "1.437,53",
+				"Municipi" : "Vilanova de Mei&agrave;",
+				"Comarca" : "Noguera",
+				"Lat" : "42.021294",
+				"Lon" : "1.010278",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/261095006.pdf target=_blank>CE-261095006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/5\/54\/ROCA_ALTA_-_MONTSEC_-_IB-346.JPG\/300px-ROCA_ALTA_-_MONTSEC_-_IB-346.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [1.01022, 42.02126, 1437.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#9D9D00",
+				"Title" : "Mont Caro",
+				"id" : 2483903,
+				"Serralada" : "Ports de Tortosa-Beseit",
+				"Cota" : "1.440,98",
+				"Municipi" : "Roquetes",
+				"Comarca" : "Baix Ebre",
+				"Lat" : "40.803106",
+				"Lon" : "0.343092",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/245154006.pdf target=_blank>CE-245154006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/5\/5f\/PortsBeseit2.jpg\/300px-PortsBeseit2.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [0.34311, 40.80313, 1440.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#9D9D00",
+				"Title" : "Roc del Comptador",
+				"id" : 2483916,
+				"Serralada" : "Serra de les Salines",
+				"Cota" : "1.450,90",
+				"Municipi" : "Maçanet de Cabrenys",
+				"Comarca" : "Alt Empord&agrave;",
+				"Lat" : "42.422778",
+				"Lon" : "2.727222",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/303076006.pdf target=_blank>CE-303076006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/8\/83\/Roc_de_Frausa_2011_07.jpg\/300px-Roc_de_Frausa_2011_07.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.72722, 42.42278, 1450.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#838300",
+				"Title" : "Puigsacalm",
+				"id" : 2483923,
+				"Serralada" : "Serralada Transversal",
+				"Cota" : "1.514,28",
+				"Municipi" : "La Vall d'en Bas",
+				"Comarca" : "Garrotxa",
+				"Lat" : "42.125111",
+				"Lon" : "2.387933",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/294090006.pdf target=_blank>CE-294090006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/d\/dd\/Puigsacalm3.jpg\/300px-Puigsacalm3.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.38791, 42.12517, 1514.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#838300",
+				"Title" : "Milany",
+				"id" : 2483910,
+				"Serralada" : "Serra de Milany",
+				"Cota" : "1.529,32",
+				"Municipi" : "Vallfogona de Ripoll&egrave;s",
+				"Comarca" : "Ripoll&egrave;s",
+				"Lat" : "42.165506",
+				"Lon" : "2.289692",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/292089006.pdf target=_blank>CE-292089006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/c\/c4\/Castell_de_Milany.JPG\/300px-Castell_de_Milany.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.28968, 42.16556, 1529.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#838300",
+				"Title" : "Pedr&oacute; de Tubau",
+				"id" : 2483865,
+				"Serralada" : null,
+				"Cota" : "1.543,17",
+				"Municipi" : "Sant Jaume de Frontany&agrave;",
+				"Comarca" : "Bergued&agrave;",
+				"Lat" : "42.220194",
+				"Lon" : "2.049611",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/286086006.pdf target=_blank>CE-286086006<\/a>",
+				"Imatge" : "Fotografia no disponible.",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.04951, 42.22026, 1543.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#838300",
+				"Title" : "Comanegra",
+				"id" : 2483927,
+				"Serralada" : "Pirineus",
+				"Cota" : "1.557,40",
+				"Municipi" : "Montagut i Oix",
+				"Comarca" : "Garrotxa",
+				"Lat" : "42.33337",
+				"Lon" : "2.526506",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/298081006.pdf target=_blank>CE-298081006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/c\/c4\/Comanegra_des_de_la_Vall_de_Camprodon.JPG\/300px-Comanegra_des_de_la_Vall_de_Camprodon.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.52776, 42.3333, 1557.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#838300",
+				"Title" : "El Coscollet",
+				"id" : 2483854,
+				"Serralada" : "Serra d'Aubenç",
+				"Cota" : "1.610,09",
+				"Municipi" : "Peramola",
+				"Comarca" : "Alt Urgell",
+				"Lat" : "42.1141",
+				"Lon" : "1.267555",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/267091006.pdf target=_blank>CE-267091006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/a\/a5\/Coscollet.jpg\/300px-Coscollet.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [1.26756, 42.1141, 1610.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#838300",
+				"Title" : "Montfalgars",
+				"id" : 2483917,
+				"Serralada" : null,
+				"Cota" : "1.610,78",
+				"Municipi" : "Moll&oacute;",
+				"Comarca" : "Ripoll&egrave;s",
+				"Lat" : "42.363017",
+				"Lon" : "2.456067",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/296079006.pdf target=_blank>CE-296079006<\/a>",
+				"Imatge" : "Fotografia no disponible.",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.45691, 42.36323, 1610.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#838300",
+				"Title" : "Sant Alís",
+				"id" : 2483836,
+				"Serralada" : "Montsec d'Ares",
+				"Cota" : "1.675,36",
+				"Municipi" : "&agrave;ger",
+				"Comarca" : "Noguera",
+				"Lat" : "42.0405",
+				"Lon" : "0.766231",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/255095006.pdf target=_blank>CE-255095006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/b\/b9\/Sant_Al%C3%ADs.JPG\/300px-Sant_Al%C3%ADs.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [0.76655, 42.03985, 1675.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#838300",
+				"Title" : "Matagalls",
+				"id" : 2483918,
+				"Serralada" : "Massís del Montseny",
+				"Cota" : "1.697,22",
+				"Municipi" : "Viladrau",
+				"Comarca" : "Osona",
+				"Lat" : "41.808794",
+				"Lon" : "2.382739",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/294106006.pdf target=_blank>CE-294106006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/2\/26\/Cim_matagalls.JPG\/300px-Cim_matagalls.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.38271, 41.80879, 1697.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#838300",
+				"Title" : "Les Agudes",
+				"id" : 2483913,
+				"Serralada" : "Montseny",
+				"Cota" : "1.705,44",
+				"Municipi" : "Fogars de Montcl&uacute;s",
+				"Comarca" : "Vall&egrave;s Oriental",
+				"Lat" : "41.789453",
+				"Lon" : "2.443914",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/296107006.pdf target=_blank>CE-296107006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/e\/e8\/Les_agudes.jpg\/300px-Les_agudes.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.44395, 41.78932, 1705.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#838300",
+				"Title" : "Tur&oacute; de l'Home",
+				"id" : 2483876,
+				"Serralada" : "Montseny",
+				"Cota" : "1.705,78",
+				"Municipi" : "Fogars de Montcl&uacute;s",
+				"Comarca" : "Vall&egrave;s Oriental",
+				"Lat" : "41.772528",
+				"Lon" : "2.4375",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/295107006.pdf target=_blank>CE-295107006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/e\/eb\/Observatori_Turo_de_l%27Home.JPG\/300px-Observatori_Turo_de_l%27Home.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.43482, 41.77649, 1705.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#838300",
+				"Title" : "El Pedr&oacute;",
+				"id" : 2483911,
+				"Serralada" : "serra de Catllar&agrave;s",
+				"Cota" : "1.764,62",
+				"Municipi" : "La Pobla de Lillet",
+				"Comarca" : "Bergued&agrave;",
+				"Lat" : "42.202709",
+				"Lon" : "1.948933",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/284087006.pdf target=_blank>CE-284087006<\/a>",
+				"Imatge" : "Fotografia no disponible.",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [1.94892, 42.20272, 1764.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#838300",
+				"Title" : "Cogull&oacute; d'Estela",
+				"id" : 2483864,
+				"Serralada" : "Rasos de Peguera",
+				"Cota" : "1.869,54",
+				"Municipi" : "Castellar del Riu",
+				"Comarca" : "Bergued&agrave;",
+				"Lat" : "42.121525",
+				"Lon" : "1.787144",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/280091006.pdf target=_blank>CE-280091006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/a\/ae\/Cogull%C3%B3_d%27Estela_-_001.jpg\/300px-Cogull%C3%B3_d%27Estela_-_001.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [1.78708, 42.1216, 1869.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#6A6A00",
+				"Title" : "El Taga",
+				"id" : 2483834,
+				"Serralada" : "Serra de Conivella",
+				"Cota" : "2.039,87",
+				"Municipi" : "Ribes de Freser",
+				"Comarca" : "Ripoll&egrave;s",
+				"Lat" : "42.280717",
+				"Lon" : "2.209897",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/290083006.pdf target=_blank>CE-290083006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/5\/59\/Taga3.jpg\/300px-Taga3.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.2099, 42.28076, 2039.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#6A6A00",
+				"Title" : "Cap de Boumort",
+				"id" : 2483887,
+				"Serralada" : "Serra de Boumort",
+				"Cota" : "2.077,23",
+				"Municipi" : "Conca de Dalt",
+				"Comarca" : "Pallars Juss&agrave;",
+				"Lat" : "42.234995",
+				"Lon" : "1.134696",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/264085006.pdf target=_blank>CE-264085006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/c\/c1\/Cap-de-boumort-RP.jpg\/300px-Cap-de-boumort-RP.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [1.13466, 42.23502, 2077.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#6A6A00",
+				"Title" : "Montcorbison",
+				"id" : 2483843,
+				"Serralada" : "Pirineus",
+				"Cota" : "2.172,69",
+				"Municipi" : "Vielha e Mijaran",
+				"Comarca" : "Vall d'Aran",
+				"Lat" : "42.708556",
+				"Lon" : "0.758769",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/255063006.pdf target=_blank>CE-255063006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/1\/10\/Montcorbison_des_dera_Piusa.jpg\/300px-Montcorbison_des_dera_Piusa.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [0.75869, 42.70782, 2172.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#6A6A00",
+				"Title" : "Cap d'Urdet",
+				"id" : 2483868,
+				"Serralada" : "Serra del Verd",
+				"Cota" : "2.240,22",
+				"Municipi" : "G&ograve;sol",
+				"Comarca" : "Bergued&agrave;",
+				"Lat" : "42.196622",
+				"Lon" : "1.640514",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/276087006.pdf target=_blank>CE-276087006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/5\/56\/CIM_DEL_CAP_D%27URDET.JPG\/300px-CIM_DEL_CAP_D%27URDET.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [1.64047, 42.19661, 2240.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#6A6A00",
+				"Title" : "Penyes Altes de Moixer&oacute;",
+				"id" : 2483902,
+				"Serralada" : "Serra de Moixer&oacute;",
+				"Cota" : "2.275,92",
+				"Municipi" : "Guardiola de Bergued&agrave;",
+				"Comarca" : "Bergued&agrave;",
+				"Lat" : "42.306289",
+				"Lon" : "1.842464",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/281082006.pdf target=_blank>CE-281082006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/b\/bf\/Penyes_Altes_del_Moixero_IMG_1853.jpg\/300px-Penyes_Altes_del_Moixero_IMG_1853.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [1.84247, 42.30629, 2275.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#6A6A00",
+				"Title" : "Cap de la Gallina Pelada",
+				"id" : 2483922,
+				"Serralada" : "Serra d'Ensija",
+				"Cota" : "2.320,99",
+				"Municipi" : "Saldes",
+				"Comarca" : "Bergued&agrave;",
+				"Lat" : "42.189433",
+				"Lon" : "1.738122",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/279087006.pdf target=_blank>CE-279087006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/b\/b7\/Cap_de_la_Gallina_Pelada_P1220517.jpg\/300px-Cap_de_la_Gallina_Pelada_P1220517.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [1.73805, 42.18941, 2320.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#6A6A00",
+				"Title" : "Pedr&oacute; dels Quatre Batlles",
+				"id" : 2483898,
+				"Serralada" : "Port del Comte",
+				"Cota" : "2.386,49",
+				"Municipi" : "La Coma i la Pedra",
+				"Comarca" : "Solson&egrave;s",
+				"Lat" : "42.184725",
+				"Lon" : "1.520894",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/274087006.pdf target=_blank>CE-274087006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/3\/3b\/PEDR%C3%93_DELS_QUATRE_BATLLES_-_OD%C3%88N_-_IB-552.JPG\/300px-PEDR%C3%93_DELS_QUATRE_BATLLES_-_OD%C3%88N_-_IB-552.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [1.52087, 42.18475, 2386.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#6A6A00",
+				"Title" : "Puigllançada",
+				"id" : 2483908,
+				"Serralada" : "Serra de Moixer&oacute;",
+				"Cota" : "2.409,15",
+				"Municipi" : "Bag&agrave;",
+				"Comarca" : "Bergued&agrave;",
+				"Lat" : "42.300492",
+				"Lon" : "1.985557",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/283082006.pdf target=_blank>CE-283082006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/3\/3b\/Tossa_alp_puigllan%C3%A7ada.JPG\/300px-Tossa_alp_puigllan%C3%A7ada.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [1.93551, 42.30048, 2409.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#6A6A00",
+				"Title" : "Costabona",
+				"id" : 2483889,
+				"Serralada" : "Pirineus",
+				"Cota" : "2.465,04",
+				"Municipi" : "Setcases",
+				"Comarca" : "Ripoll&egrave;s",
+				"Lat" : "42.416836",
+				"Lon" : "2.343617",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/293076006.pdf target=_blank>CE-293076006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/9\/91\/Costabona.jpg\/300px-Costabona.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.34386, 42.41692, 2465.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#505000",
+				"Title" : "Pedraforca",
+				"id" : 2483929,
+				"Serralada" : null,
+				"Cota" : "2.506,37",
+				"Municipi" : "Saldes",
+				"Comarca" : "Bergued&agrave;",
+				"Lat" : "42.237039",
+				"Lon" : "1.697192",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/278085006.pdf target=_blank>CE-278085006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/2\/25\/Pedraforca-neu-02.JPG\/300px-Pedraforca-neu-02.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [1.70293, 42.23994, 2506.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#505000",
+				"Title" : "Montlude",
+				"id" : 2483925,
+				"Serralada" : "S&egrave;rra deth Montlude",
+				"Cota" : "2.517,70",
+				"Municipi" : "Vilam&ograve;s",
+				"Comarca" : "Vall d'Aran",
+				"Lat" : "42.785242",
+				"Lon" : "0.758747",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/255059006.pdf target=_blank>CE-255059006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/e\/e3\/Cara_n%C3%B2rd_deth_Montlude_des_deth_Tuc_des_Neres.JPG\/300px-Cara_n%C3%B2rd_deth_Montlude_des_deth_Tuc_des_Neres.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [0.75871, 42.78526, 2517.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#505000",
+				"Title" : "Tosa d'Alp",
+				"id" : 2483831,
+				"Serralada" : "Serrat Gran",
+				"Cota" : "2.536,41",
+				"Municipi" : "Ur&uacute;s",
+				"Comarca" : "Cerdanya",
+				"Lat" : "42.320583",
+				"Lon" : "1.892639",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/282081006.pdf target=_blank>CE-282081006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/1\/19\/La_Tosa_Ger_1.JPG\/300px-La_Tosa_Ger_1.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [1.89264, 42.32058, 2536.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#505000",
+				"Title" : "Comabona",
+				"id" : 2483855,
+				"Serralada" : "Serra del Cadí",
+				"Cota" : "2.548,23",
+				"Municipi" : "Montell&agrave; i Martinet",
+				"Comarca" : "Cerdanya",
+				"Lat" : "42.283654",
+				"Lon" : "1.726461",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/278083006.pdf target=_blank>CE-278083006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/2\/26\/Comabona_i_santuari_del_Gresolet.jpg\/300px-Comabona_i_santuari_del_Gresolet.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [1.72629, 42.28369, 2548.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#505000",
+				"Title" : "Torreta de Cadí",
+				"id" : 2483928,
+				"Serralada" : "Serra del Cadí",
+				"Cota" : "2.562,07",
+				"Municipi" : "Cava",
+				"Comarca" : "Alt Urgell",
+				"Lat" : "42.287017",
+				"Lon" : "1.584379",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/275083006.pdf target=_blank>CE-275083006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/e\/e2\/Torreta_de_Cad%C3%AD_des_dels_Rasos_de_Peguera_P1220499.JPG\/300px-Torreta_de_Cad%C3%AD_des_dels_Rasos_de_Peguera_P1220499.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [1.5842, 42.28708, 2562.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#505000",
+				"Title" : "El Balandrau",
+				"id" : 2483839,
+				"Serralada" : "Serra de la Canya",
+				"Cota" : "2.585,23",
+				"Municipi" : "Queralbs",
+				"Comarca" : "Ripoll&egrave;s",
+				"Lat" : "42.369969",
+				"Lon" : "2.219647",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/290079006.pdf target=_blank>CE-290079006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/f\/f0\/Balandrau_peak%2C_Catalonia.jpg\/300px-Balandrau_peak%2C_Catalonia.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.21957, 42.37014, 2585.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#505000",
+				"Title" : "Tuc de Marimanha",
+				"id" : 2483863,
+				"Serralada" : null,
+				"Cota" : "2.679,25",
+				"Municipi" : "Naut Aran",
+				"Comarca" : "Vall d'Aran",
+				"Lat" : "42.709231",
+				"Lon" : "1.012322",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/261062006.pdf target=_blank>CE-261062006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/4\/45\/TUC_DE_MARIMANHA_-_VAL_D%27ARAN_-_IB-710.JPG\/300px-TUC_DE_MARIMANHA_-_VAL_D%27ARAN_-_IB-710.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [1.01231, 42.70922, 2679.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#505000",
+				"Title" : "Gra de Fajol",
+				"id" : 2483919,
+				"Serralada" : "Pirineus",
+				"Cota" : "2.714,29",
+				"Municipi" : "Setcases",
+				"Comarca" : "Ripoll&egrave;s",
+				"Lat" : "42.415439",
+				"Lon" : "2.247806",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/291077006.pdf target=_blank>CE-291077006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/4\/4a\/Gra_de_Fajol.jpg\/300px-Gra_de_Fajol.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.24775, 42.41548, 2714.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#505000",
+				"Title" : "Els Encantats",
+				"id" : 2483851,
+				"Serralada" : "Pirineus",
+				"Cota" : "2.748,69",
+				"Municipi" : "Espot",
+				"Comarca" : "Pallars Sobir&agrave;",
+				"Lat" : "42.568414",
+				"Lon" : "1.014839",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/261069006.pdf target=_blank>CE-261069006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/7\/73\/Encantats.jpg\/300px-Encantats.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [1.01484, 42.56841, 2748.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#505000",
+				"Title" : "Pic de Sal&ograve;ria",
+				"id" : 2483888,
+				"Serralada" : "Pirineus",
+				"Cota" : "2.788,82",
+				"Municipi" : "Alins",
+				"Comarca" : "Pallars Sobir&agrave;",
+				"Lat" : "42.514447",
+				"Lon" : "1.385131",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/270072006.pdf target=_blank>CE-270072006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/3\/3c\/Pic_de_Sal%C3%B2ria_des_d%27Os_de_Civ%C3%ADs.JPG\/300px-Pic_de_Sal%C3%B2ria_des_d%27Os_de_Civ%C3%ADs.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [1.38515, 42.51446, 2788.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#505000",
+				"Title" : "Montardo",
+				"id" : 2483867,
+				"Serralada" : "Pirineus",
+				"Cota" : "2.833,15",
+				"Municipi" : "Naut Aran",
+				"Comarca" : "Vall d'Aran",
+				"Lat" : "42.633336",
+				"Lon" : "0.875344",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/258066006.pdf target=_blank>CE-258066006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/b\/b6\/Cim_del_Montardo.jpg\/300px-Cim_del_Montardo.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [0.87534, 42.63334, 2833.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#505000",
+				"Title" : "Mont-roig",
+				"id" : 2483848,
+				"Serralada" : "Pirineus",
+				"Cota" : "2.864,40",
+				"Municipi" : "Alt &agrave;neu",
+				"Comarca" : "Pallars Sobir&agrave;",
+				"Lat" : "42.708139",
+				"Lon" : "1.17105",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/265062006.pdf target=_blank>CE-265062006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/2\/20\/MONT-ROIG_-_23-8-86_-_IB-500.JPG\/300px-MONT-ROIG_-_23-8-86_-_IB-500.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [1.17681, 42.71076, 2864.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#505000",
+				"Title" : "Pic de l'Infern",
+				"id" : 2483870,
+				"Serralada" : "Pirineus",
+				"Cota" : "2.869,51",
+				"Municipi" : "Queralbs",
+				"Comarca" : "Ripoll&egrave;s",
+				"Lat" : "42.423919",
+				"Lon" : "2.213836",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/290076006.pdf target=_blank>CE-290076006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/9\/9a\/Pics_de_Freser_i_Infern_des_dels_Bastiments.jpg\/300px-Pics_de_Freser_i_Infern_des_dels_Bastiments.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.21374, 42.42393, 2869.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#505000",
+				"Title" : "Pic de Bastiments",
+				"id" : 2483869,
+				"Serralada" : "Pirineus",
+				"Cota" : "2.881,25",
+				"Municipi" : "Queralbs",
+				"Comarca" : "Ripoll&egrave;s",
+				"Lat" : "42.426194",
+				"Lon" : "2.232906",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/291076006.pdf target=_blank>CE-291076006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/8\/83\/Bastiments.jpg\/300px-Bastiments.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.23291, 42.42619, 2881.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#505000",
+				"Title" : "Tuc de Maub&egrave;rme",
+				"id" : 2483885,
+				"Serralada" : "Pirineus",
+				"Cota" : "2.881,59",
+				"Municipi" : "Naut Aran",
+				"Comarca" : "Vall d'Aran",
+				"Lat" : "42.793697",
+				"Lon" : "0.917204",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/259058006.pdf target=_blank>CE-259058006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/1\/18\/Tuc_de_Maub%C3%A8rme_des_del_Lac_de_Montoliu.JPG\/300px-Tuc_de_Maub%C3%A8rme_des_del_Lac_de_Montoliu.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [0.91714, 42.79375, 2881.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#505000",
+				"Title" : "Era Forcanada",
+				"id" : 2483901,
+				"Serralada" : null,
+				"Cota" : "2.882,69",
+				"Municipi" : "Es B&ograve;rdes",
+				"Comarca" : "Vall d'Aran",
+				"Lat" : "42.643175",
+				"Lon" : "0.705383",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/254066006.pdf target=_blank>CE-254066006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/4\/40\/LA_FORCANADA_-_VAL_D%27ARAN_-_IB-075.JPG\/300px-LA_FORCANADA_-_VAL_D%27ARAN_-_IB-075.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [0.70537, 42.64312, 2882.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#505000",
+				"Title" : "Montsent de Pallars",
+				"id" : 2483829,
+				"Serralada" : "Pirineus",
+				"Cota" : "2.883,05",
+				"Municipi" : "La Torre de Cabdella",
+				"Comarca" : "Pallars Juss&agrave;",
+				"Lat" : "42.490061",
+				"Lon" : "1.024461",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/262073006.pdf target=_blank>CE-262073006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/9\/93\/Montseny_de_Pallars1.jpg\/300px-Montseny_de_Pallars1.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [1.02441, 42.49012, 2883.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#505000",
+				"Title" : "Pic de la Portelleta",
+				"id" : 2483872,
+				"Serralada" : "Pirineus",
+				"Cota" : "2.904,90",
+				"Municipi" : "Lles de Cerdanya",
+				"Comarca" : "Cerdanya",
+				"Lat" : "42.468107",
+				"Lon" : "1.657244",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/277074006.pdf target=_blank>CE-277074006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/0\/02\/Tossa_Plana_de_Lles.jpg\/300px-Tossa_Plana_de_Lles.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [1.65724, 42.46811, 2904.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#505000",
+				"Title" : "Monteixo",
+				"id" : 2483880,
+				"Serralada" : "Pirineus",
+				"Cota" : "2.905,05",
+				"Municipi" : "Alins",
+				"Comarca" : "Pallars Sobir&agrave;",
+				"Lat" : "42.601744",
+				"Lon" : "1.361556",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/270068006.pdf target=_blank>CE-270068006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/f\/fb\/Pic_de_Monteixo.jpg\/300px-Pic_de_Monteixo.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [1.36164, 42.60174, 2905.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#505000",
+				"Title" : "Puigmal",
+				"id" : 2483862,
+				"Serralada" : "Pirineus",
+				"Cota" : "2.909,85",
+				"Municipi" : "Queralbs",
+				"Comarca" : "Ripoll&egrave;s",
+				"Lat" : "42.383311",
+				"Lon" : "2.116722",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/288078006.pdf target=_blank>CE-288078006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/8\/8e\/Puigmal_des_de_guils.jpg\/300px-Puigmal_des_de_guils.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [2.11684, 42.3833, 2909.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#505000",
+				"Title" : "Puigpedr&oacute;s",
+				"id" : 2483914,
+				"Serralada" : "Pirineus",
+				"Cota" : "2.915,01",
+				"Municipi" : "Meranges",
+				"Comarca" : "Cerdanya",
+				"Lat" : "42.487564",
+				"Lon" : "1.761808",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/279073006.pdf target=_blank>CE-279073006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/e\/e0\/Puigpedr%C3%B3s.jpg\/300px-Puigpedr%C3%B3s.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [1.7619, 42.48759, 2915.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#505000",
+				"Title" : "Gran Tuc de Colom&egrave;rs",
+				"id" : 2483906,
+				"Serralada" : "Pirineus",
+				"Cota" : "2.933,40",
+				"Municipi" : "Vall de Boí",
+				"Comarca" : "Alta Ribagorça",
+				"Lat" : "42.589361",
+				"Lon" : "0.937806",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/260068006.pdf target=_blank>CE-260068006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/b\/b9\/P1220906x_-_Gran_Tuc_de_Colom%C3%A8rs.JPG\/300px-P1220906x_-_Gran_Tuc_de_Colom%C3%A8rs.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [0.93781, 42.58939, 2933.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#505000",
+				"Title" : "Pic de Subenuix",
+				"id" : 2483891,
+				"Serralada" : "Serra de Subenuix",
+				"Cota" : "2.950,16",
+				"Municipi" : "La Torre de Cabdella",
+				"Comarca" : "Pallars Juss&agrave;",
+				"Lat" : "42.554961",
+				"Lon" : "0.979419",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/261070006.pdf target=_blank>CE-261070006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/9\/96\/P1320922x_-_Pic_de_Subenuix.JPG\/300px-P1320922x_-_Pic_de_Subenuix.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [0.97938, 42.55495, 2950.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#505000",
+				"Title" : "Pic de Peguera",
+				"id" : 2483844,
+				"Serralada" : "Pirineus",
+				"Cota" : "2.982,72",
+				"Municipi" : "La Torre de Cabdella",
+				"Comarca" : "Pallars Juss&agrave;",
+				"Lat" : "42.540517",
+				"Lon" : "1.011972",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/261071006.pdf target=_blank>CE-261071006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/1\/1e\/PIC_DE_PEGUERA_-_CABDELLA_-_IB-971.JPG\/300px-PIC_DE_PEGUERA_-_CABDELLA_-_IB-971.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [1.01195, 42.54053, 2982.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#1D1D00",
+				"Title" : "Besiberri Nord",
+				"id" : 2483873,
+				"Serralada" : "Massís del Besiberri",
+				"Cota" : "3.008,27",
+				"Municipi" : "Vall de Boí",
+				"Comarca" : "Alta Ribagorça",
+				"Lat" : "42.605281",
+				"Lon" : "0.826306",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/257067006.pdf target=_blank>CE-257067006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/7\/74\/P1100317_-_Besiberri_Nord.JPG\/300px-P1100317_-_Besiberri_Nord.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [0.8263, 42.60526, 3008.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#1D1D00",
+				"Title" : "Tuc de Moli&egrave;res",
+				"id" : 2483905,
+				"Serralada" : "Pirineus",
+				"Cota" : "3.010,08",
+				"Municipi" : "Vielha e Mijaran",
+				"Comarca" : "Vall d'Aran",
+				"Lat" : "42.629469",
+				"Lon" : "0.698567",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/254066008.pdf target=_blank>CE-254066008<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/9\/93\/PicdeMulleres.jpg\/300px-PicdeMulleres.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [0.69857, 42.62947, 3010.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#1D1D00",
+				"Title" : "Punta Alta de Comalesbienes",
+				"id" : 2483861,
+				"Serralada" : "Pirineus",
+				"Cota" : "3.014,02",
+				"Municipi" : "Vall de Boí",
+				"Comarca" : "Alta Ribagorça",
+				"Lat" : "42.585697",
+				"Lon" : "0.880308",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/258068006.pdf target=_blank>CE-258068006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/5\/55\/P1280530x_-_Punta_Alta_de_Comalesbienes.JPG\/300px-P1280530x_-_Punta_Alta_de_Comalesbienes.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [0.8803, 42.58569, 3014.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#1D1D00",
+				"Title" : "Pic de Comaloforno",
+				"id" : 2483921,
+				"Serralada" : "Massís del Besiberri",
+				"Cota" : "3.029,18",
+				"Municipi" : "Vall de Boí",
+				"Comarca" : "Alta Ribagorça",
+				"Lat" : "42.591358",
+				"Lon" : "0.827811",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/257068006.pdf target=_blank>CE-257068006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/c\/c7\/P1030184_-_Comaloformo.JPG\/300px-P1030184_-_Comaloformo.JPG><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [0.82783, 42.59138, 3029.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#1D1D00",
+				"Title" : "Pic de Sotllo",
+				"id" : 2483892,
+				"Serralada" : "Pirineus",
+				"Cota" : "3.072,77",
+				"Municipi" : "Alins",
+				"Comarca" : "Pallars Sobir&agrave;",
+				"Lat" : "42.668694",
+				"Lon" : "1.387475",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/270064006.pdf target=_blank>CE-270064006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/b\/be\/Pic_de_Sotllo.jpg\/300px-Pic_de_Sotllo.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [1.38746, 42.66871, 3072.0]
+			}
+		}, {
+			"type" : "Feature",
+			"properties" : {
+				"marker-symbol" : "triangle",
+				"marker-color" : "#1D1D00",
+				"Title" : "Pica d'Estats",
+				"id" : 2483860,
+				"Serralada" : "Massís del Montcalm",
+				"Cota" : "3.143,45",
+				"Municipi" : "Alins",
+				"Comarca" : "Pallars Sobir&agrave;",
+				"Lat" : "42.66695",
+				"Lon" : "1.397894",
+				"Fitxa" : "<a href=ftp:\/\/geofons.icc.cat\/fitxes\/100CIMS\/271064006.pdf target=_blank>CE-271064006<\/a>",
+				"Imatge" : "<img src=http:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/8\/89\/Pica_Estats.jpg\/300px-Pica_Estats.jpg><p><font size=1>Font: Wikipedia<\/font>",
+				"Font" : "Institut Cartogr&agrave;fic i Geol&ograve;gic de Catalunya"
+			},
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [1.39789, 42.66695, 3143.0]
+			}
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+	]
+}

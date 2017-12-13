@@ -1,0 +1,179 @@
+ @import url(../Cesium/Widgets/widgets.css);
+      #mapa3d {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+        padding: 0;
+        font-family: sans-serif;
+      }
+
+      html {
+        height: 100%;
+      }
+
+      body {
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        height: 100%;
+      }
+	   #llegenda{
+	  z-index:200;
+	  background-color:#353535;
+	  color:#ffffff;
+	  position:absolute;
+	  top:5px,left:5px;
+	  width:250px;
+	
+	  margin:10px;
+	  padding:10px;
+	  border-radius:4px;
+	  opacity:0.9;
+	  }
+	  
+	  #link_modal{
+	   overflow:hidden !important;
+	   font-size:80% !important;
+	  }
+	  
+	  .modal-body{
+	   background-color:#353535 !important;
+	  color:#ffffff !important;
+	  font-size:85% !important;
+	  
+	  }
+	  
+	  .modal-header{
+	   background-color:#353535 !important;
+	  color:#ffffff !important;
+	  font-size:80% !important;
+	  
+	  }
+	  
+	  h4, .h4 {
+    font-size: 14px !important;
+}
+	  
+	  .modal-backdrop{
+	  overflow:hidden;
+	  
+	  }
+	  
+	  #sel_cims{  
+	  width:250px;
+	  }
+	  
+	  .select2-drop {
+    color: #333333 !important;
+	font-family: sans-serif;
+	font-size:75%;
+}
+
+a{color:#F49F20!important}
+
+hr{color:#F49F20!important}
+
+#div_link{text-align:center}
+
+small{font-size:70%!important}
+
+ul{
+
+ padding: 0px !important;
+
+}
+
+
+.close {
+    color: #ffffff !important;
+    opacity: 0.75 !important;
+}
+
+
+#sp_llegenda{
+	cursor:pointer;
+}
+
+#logos {
+    bottom: 60px;
+    cursor: pointer;
+    height: 46px;
+    left: 0;
+    opacity: 0.8;
+    padding: 0 10px;
+    position: absolute;
+    z-index: 1000;
+}
+#logos.logos {
+    left: 270px;
+}
+
+.cesium-infoBox-title {
+    height: 26px !important;
+}	
+
+.cesium-viewer .cesium-widget-credits {
+    font-size: 9px !important;
+}
+
+.cesium-toolbar-button {
+    height: 22px!important;   
+    width: 22px!important;
+}
+
+
+
+
+button.cesium-infoBox-camera {
+   display:none !important;
+}
+
+#sp_contacte{
+float:right;
+font-size: 85%;
+}
+
+#sp_finestra{
+float:right;
+font-size: 85%;
+display:none;
+margin-left:8px
+}
+
+
+#link_betaportal{
+
+    font-size: 75%;
+   
+    position: absolute;
+    right: 50px;
+    top: 3px;
+   
+    z-index: 217;
+}
+
+ #coords{
+	  z-index:200;
+	  background-color:#353535;
+	  color:#ffffff;
+	  position:absolute;
+	  bottom:15px;
+	  right:5px; 
+	  margin:10px;
+	  padding:10px;
+	  border-radius:4px;
+	  opacity:0.9;
+	  font-size:80%;
+	  }
+	  
+@media ( max-width :767px) {
+	
+
+	
+}	
+
+

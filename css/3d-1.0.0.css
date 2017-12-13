@@ -1,0 +1,124 @@
+ @import url(../Cesium/Widgets/widgets.css);
+      #mapa3d {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+        padding: 0;
+        
+      }
+
+      html {
+        height: 100%;
+      }
+
+      body {
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        height: 100%;
+      }
+	   #llegenda{
+	    background-color: #353535;
+    border-radius: 4px;
+    color: #ffffff;
+    left: 5px;
+    opacity: 0.9;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-top: 2px;
+    position: absolute;
+    top: 5px;
+    z-index: 200;
+	  }
+	  
+	   #legend{
+	   background-color: #353535;
+    border-radius: 4px;
+    color: #ffffff;
+    display: none;
+    left: 5px;
+    opacity: 0.9;
+    padding: 7px 15px 5px 5px;
+    position: absolute;
+    top: 214px;
+    z-index: 200;
+	  }
+	  
+	  .legend-colorBlock {
+    border: thin solid #444;
+    display: inline-block;
+    height: 12px;
+    margin: 2px 5px 2px 0;
+    vertical-align: middle;
+    width: 12px;
+}
+	  
+	   #coords{
+	  z-index:200;
+	  background-color:#353535;
+	  color:#ffffff;
+	  position:absolute;
+	  bottom:15px;
+	  right:5px; 
+	  margin:10px;
+	  padding:10px;
+	  border-radius:4px;
+	  opacity:0.9;
+	  font-size:80%;
+	  }
+	  
+	  
+	  
+	  
+	  #sel_cims{
+	  
+	  width:250px;
+	  }
+	  
+	  .select2-drop {
+    color: #333333 !important;
+	font-family: sans-serif;
+	font-size:75%;
+}
+
+
+
+.carrega {
+    background-image: url("/cesium/css/img/load.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+    height: 100px;
+    left: 48%;
+    margin-left: -33px;
+    margin-top: -33px;
+    position: absolute;
+    top: 48%;
+    width: 100px;
+	z-index:100;
+}
+
+
+#fons_div {
+    background-color: rgba(0, 0, 0, 0.75);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+	 display: block;
+	 z-index:100;
+}
+
+
+#link_betaportal{
+bottom: 0;
+    float: right;
+    font-size: 70%;
+    position: relative;
+    z-index: 217;
+}
