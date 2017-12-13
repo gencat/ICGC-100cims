@@ -6,12 +6,14 @@ As a demonstrator of what Cesium allows, we have added a set of layers that you 
 
 The geoinformation we have used to create this scenario is our 5 meters resolution digital terrain model of Catalonia.
 
+**Demo:** http://betaserver.icgc.cat/cesium/100cims.html
+
 ## Installation
 Copy the files within a folder on a web server
 
 More information at http://betaportal.icgc.cat/wordpress/catalunya-en-3d-en-el-teu-navegador/
 
-![alt text](http://betaportal.icgc.cat/wordpress/wp-content/uploads/2015/01/100cims1.png "App example")
+[![App example](http://betaportal.icgc.cat/wordpress/wp-content/uploads/2015/01/100cims1.png)](http://betaserver.icgc.cat/cesium/100cims.html)
 
 ## License
 
