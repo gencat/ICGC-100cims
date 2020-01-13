@@ -39,207 +39,121 @@
 
 <body>
 	<div id="llegenda">
-		<span title="Veure capes" id="sp_llegenda" class="glyphicon glyphicon-collapse-up"></span>
-		<a id="sp_finestra" href="http://betaserver.icgc.cat/cesium/100cims.html" target="_blank">
-			<span title="Veure finestra completa" class="glyphicon glyphicon-fullscreen"></span>
-		</a>
 
-		<span id="sp_contacte">
-			<a target="_blank" title="Fes els teus suggeriments" alt="Fes els teus suggeriments" href="mailto:betaportal@icgc.cat?subject=Catalunya 100 cims">
-				<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-			</a>
-		</span>
-		<div id="llegenda0">
-			<ul style="list-style-type:none">
-				<li>Capes</li>
-				<li>
-					<input type="checkbox" value="cims" checked id="chk_capes"> Cims emblemàtics
-					<a href="http://www.icc.cat/Home-ICC/Geodesia/100-cims" target="_blank">(ICGC)</a>
-				</li>
-				<li>
-					<input type="checkbox" value="orto56" id="chk_capes"> Topogràfic
-					<a href="http://www.icgc.cat/" target="_blank">(ICGC)</a>
-				</li>
-				<li>
-					<input type="checkbox" value="ombrejat" id="chk_capes"> Ombrejat
-					<a href="http://www.icgc.cat/" target="_blank">(ICGC)</a>
-				</li>
-				<li>
-					<input type="checkbox" value="toponimia" id="chk_capes"> Toponímia
-					<a href="http://www.icgc.cat/" target="_blank">(ICGC)</a>
-				</li>
-				<li>
-					<input type="checkbox" value="rutes" id="chk_capes"> Transport
-					<a href="http://dadesobertes.gencat.cat/" target="_blank">(Dades Obertes)</a>
-				</li>
-			</ul>
-
-			<label for="sel_cims">Selecciona un cim:</label>
-			<select id="sel_cims" style="width:230px">
-				<option></option>
-				<option value="1248,03#42.101532#2.293744">Bellmunt (1248,03 m.)</option>
-				<option value="3008,27#42.605281#0.826306">Besiberri Nord (3008,27 m.)</option>
-				<option value="1307,89#42.076014#2.407203">Cabrera (1307,89 m.)</option>
-				<option value="2240,22#42.196622#1.640514">Cap d'Urdet (2240,22 m.)</option>
-				<option value="2077,23#42.234995#1.134696">Cap de Boumort (2077,23 m.)</option>
-				<option value="2320,99#42.189433#1.738122">Cap de la Gallina Pelada (2320,99 m.)</option>
-				<option value="1869,54#42.121525#1.787144">Cogulló d'Estela (1869,54 m.)</option>
-				<option value="2548,23#42.283654#1.726461">Comabona (2548,23 m.)</option>
-				<option value="1557,4#42.33337#2.526506">Comanegra (1557,4 m.)</option>
-				<option value="2465,04#42.416836#2.343617">Costabona (2465,04 m.)</option>
-				<option value="2585,23#42.369969#2.219647">El Balandrau (2585,23 m.)</option>
-				<option value="1610,09#42.1141#1.267555">El Coscollet (1610,09 m.)</option>
-				<option value="1125,31#42.021283#2.536475">El Far (1125,31 m.)</option>
-				<option value="815,64#41.655333#2.128278">El Farell (815,64 m.)</option>
-				<option value="1124,81#42.258817#2.705897">El Mont (1124,81 m.)</option>
-				<option value="1344,93#40.734128#0.227314">El Negrell (1344,93 m.)</option>
-				<option value="1764,62#42.202709#1.948933">El Pedró (1764,62 m.)</option>
-				<option value="607,68#42.282053#3.243797">El Pení (607,68 m.)</option>
-				<option value="2039,87#42.280717#2.209897">El Taga (2039,87 m.)</option>
-				<option value="2748,69#42.568414#1.014839">Els Encantats (2748,69 m.)</option>
-				<option value="2882,69#42.643175#0.705383">Era Forcanada (2882,69 m.)</option>
-				<option value="2714,29#42.415439#2.247806">Gra de Fajol (2714,29 m.)</option>
-				<option value="2933,4#42.589361#0.937806">Gran Tuc de Colomèrs (2933,4 m.)</option>
-				<option value="942,3#40.940522#0.586047">La Creu de Santos (942,3 m.)</option>
-				<option value="1103,25#41.641289#2.017917">La Mola (1103,25 m.)</option>
-				<option value="1054,94#41.257981#1.055778">La Mussara (1054,94 m.)</option>
-				<option value="1705,44#41.789453#2.443914">Les Agudes (1705,44 m.)</option>
-				<option value="1697,22#41.808794#2.382739">Matagalls (1697,22 m.)</option>
-				<option value="1529,32#42.165506#2.289692">Milany (1529,32 m.)</option>
-				<option value="918,61#41.092364#0.862886">Miranda de Llaberia (918,61 m.)</option>
-				<option value="921,88#41.108911#0.874008">Mola de Colldejou (921,88 m.)</option>
-				<option value="711,24#41.01625#0.785433">Mola de Genessies (711,24 m.)</option>
-				<option value="1189,26#42.116658#1.581861">Mola de Lord (1189,26 m.)</option>
-				<option value="1440,98#40.803106#0.343092">Mont Caro (1440,98 m.)</option>
-				<option value="2864,4#42.708139#1.17105">Mont-roig (2864,4 m.)</option>
-				<option value="2833,15#42.633336#0.875344">Montardo (2833,15 m.)</option>
-				<option value="657,57#41.345853#1.885013">Montau (657,57 m.)</option>
-				<option value="2172,69#42.708556#0.758769">Montcorbison (2172,69 m.)</option>
-				<option value="2905,05#42.601744#1.361556">Monteixo (2905,05 m.)</option>
-				<option value="1610,78#42.363017#2.456067">Montfalgars (1610,78 m.)</option>
-				<option value="177,72#41.363992#2.16476">Montjuïc (177,72 m.)</option>
-				<option value="2517,7#42.785242#0.758747">Montlude (2517,7 m.)</option>
-				<option value="2883,05#42.490061#1.024461">Montsent de Pallars (2883,05 m.)</option>
-				<option value="292,52#40.682222#0.554444">Montsianell (292,52 m.)</option>
-				<option value="752,4#40.956864#0.338292">Muntanya de Santa Bàrbara (752,4 m.)</option>
-				<option value="307,87#42.052175#3.131672">Muntanya del Montgrí (307,87 m.)</option>
-				<option value="485,19#41.981422#2.905614">Muntanya dels Àngels (485,19 m.)</option>
-				<option value="2506,37#42.237039#1.697192">Pedraforca (2506,37 m.)</option>
-				<option value="1543,17#42.220194#2.049611">Pedró de Tubau (1543,17 m.)</option>
-				<option value="2386,49#42.184725#1.520894">Pedró dels Quatre Batlles (2386,49 m.)</option>
-				<option value="2275,92#42.306289#1.842464">Penyes Altes de Moixeró (2275,92 m.)</option>
-				<option value="2881,25#42.426194#2.232906">Pic de Bastiments (2881,25 m.)</option>
-				<option value="3029,18#42.591358#0.827811">Pic de Comaloforno (3029,18 m.)</option>
-				<option value="2869,51#42.423919#2.213836">Pic de l'Infern (2869,51 m.)</option>
-				<option value="2904,9#42.468107#1.657244">Pic de la Portelleta (2904,9 m.)</option>
-				<option value="2982,72#42.540517#1.011972">Pic de Peguera (2982,72 m.)</option>
-				<option value="2788,82#42.514447#1.385131">Pic de Salòria (2788,82 m.)</option>
-				<option value="3072,77#42.668694#1.387475">Pic de Sotllo (3072,77 m.)</option>
-				<option value="2950,16#42.554961#0.979419">Pic de Subenuix (2950,16 m.)</option>
-				<option value="3143,45#42.66695#1.397894">Pica d'Estats (3143,45 m.)</option>
-				<option value="458,88#41.753386#1.066974">Pilar d'Almenara (458,88 m.)</option>
-				<option value="532,71#41.889119#2.997292">Puig d'Arques (532,71 m.)</option>
-				<option value="1373,35#42.314097#2.632339">Puig de Bassegoda (1373,35 m.)</option>
-				<option value="861,32#41.337128#1.471597">Puig de la Talaia (861,32 m.)</option>
-				<option value="242,14#42.13186#2.76324">Puig de Sant Martirià (242,14 m.)</option>
-				<option value="518,69#41.757286#2.928278">Puig de ses Cadiretes (518,69 m.)</option>
-				<option value="1257,06#42.482072#2.946969">Puig Neulós (1257,06 m.)</option>
-				<option value="808,8#41.702975#2.241281">Puiggraciós (808,8 m.)</option>
-				<option value="2409,15#42.300492#1.985557">Puigllançada (2409,15 m.)</option>
-				<option value="2909,85#42.383311#2.116722">Puigmal (2909,85 m.)</option>
-				<option value="2915,01#42.487564#1.761808">Puigpedrós (2915,01 m.)</option>
-				<option value="1514,28#42.125111#2.387933">Puigsacalm (1514,28 m.)</option>
-				<option value="1027,25#42.115044#2.581519">Puigsallança (1027,25 m.)</option>
-				<option value="3014,02#42.585697#0.880308">Punta Alta de Comalesbienes (3014,02 m.)</option>
-				<option value="494,63#41.388689#0.401375">Punta de Montmaneu (494,63 m.)</option>
-				<option value="923,52#41.341417#0.878111">Punta del General (923,52 m.)</option>
-				<option value="1450,9#42.422778#2.727222">Roc del Comptador (1450,9 m.)</option>
-				<option value="1437,53#42.021294#1.010278">Roca Alta (1437,53 m.)</option>
-				<option value="1163,12#41.288567#0.891242">Roca Corbatera (1163,12 m.)</option>
-				<option value="1017,14#40.901278#0.326722">Roques de Benet (1017,14 m.)</option>
-				<option value="1675,36#42.0405#0.766231">Sant Alís (1675,36 m.)</option>
-				<option value="1351,08#42.181667#1.030278">Sant Corneli (1351,08 m.)</option>
-				<option value="1235,56#41.605344#1.811325">Sant Jeroni (1235,56 m.)</option>
-				<option value="499,01#41.515556#2.326667">Sant Mateu (499,01 m.)</option>
-				<option value="1202,83#41.923117#2.533014">Sant Miquel de Solterra (1202,83 m.)</option>
-				<option value="681,96#42.313528#3.167667">Sant Salvador Saverdera (681,96 m.)</option>
-				<option value="1057,98#41.747453#2.295994">Tagamanent (1057,98 m.)</option>
-				<option value="2562,07#42.287017#1.584379">Torreta de Cadí (2562,07 m.)</option>
-				<option value="763,05#40.613367#0.530144">Torreta de Montsià (763,05 m.)</option>
-				<option value="2536,41#42.320583#1.892639">Tosa d'Alp (2536,41 m.)</option>
-				<option value="619,6#41.556975#1.581486">Tossa de Montbui (619,6 m.)</option>
-				<option value="1200,88#41.325994#1.004181">Tossal de la Baltasana (1200,88 m.)</option>
-				<option value="1349,82#40.732239#0.169372">Tossal del Rei (1349,82 m.)</option>
-				<option value="803,61#41.468845#1.112839">Tossal Gros de Vallbona (803,61 m.)</option>
-				<option value="2679,25#42.709231#1.012322">Tuc de Marimanha (2679,25 m.)</option>
-				<option value="2881,59#42.793697#0.917204">Tuc de Maubèrme (2881,59 m.)</option>
-				<option value="3010,08#42.629469#0.698567">Tuc de Molières (3010,08 m.)</option>
-				<option value="536,12#41.556936#2.338508">Turó de Céllecs (536,12 m.)</option>
-				<option value="1705,78#41.772528#2.4375">Turó de l'Home (1705,78 m.)</option>
-				<option value="152,02#41.464778#2.231142">Turó de Montigalà (152,02 m.)</option>
-				<option value="758,01#41.661375#2.576331">Turó Gros (758,01 m.)</option>
-				<option value="766,05#42.141944#2.541389">Volcà de Santa Margarida (766,05 m.)</option>
-				<option value="532,28#42.187778#2.488333">Volcà del Montsacopa (532,28 m.)</option>
-			</select>
-
-			<hr>
-			<div id="div_link">
-				<a id="a_link" href="#">Enllaçar vista </a>
-			</div>
-			<hr>
-			<div>
-				<small>Fes click sobre la icona dels cims per veure'n la fitxa</small>
-			</div>
-		</div>
-	</div>
-	<div id="link_betaportal">
-		<a target="_blank" title="Betaportal" href="http://betaportal.icgc.cat?ref=100cims">Més aplicacions ..</a>
+		<select id="sel_cims">
+			<option></option>
+			<option value="1248,03#42.101532#2.293744">Bellmunt (1248,03 m.)</option>
+			<option value="3008,27#42.605281#0.826306">Besiberri Nord (3008,27 m.)</option>
+			<option value="1307,89#42.076014#2.407203">Cabrera (1307,89 m.)</option>
+			<option value="2240,22#42.196622#1.640514">Cap d'Urdet (2240,22 m.)</option>
+			<option value="2077,23#42.234995#1.134696">Cap de Boumort (2077,23 m.)</option>
+			<option value="2320,99#42.189433#1.738122">Cap de la Gallina Pelada (2320,99 m.)</option>
+			<option value="1869,54#42.121525#1.787144">Cogulló d'Estela (1869,54 m.)</option>
+			<option value="2548,23#42.283654#1.726461">Comabona (2548,23 m.)</option>
+			<option value="1557,4#42.33337#2.526506">Comanegra (1557,4 m.)</option>
+			<option value="2465,04#42.416836#2.343617">Costabona (2465,04 m.)</option>
+			<option value="2585,23#42.369969#2.219647">El Balandrau (2585,23 m.)</option>
+			<option value="1610,09#42.1141#1.267555">El Coscollet (1610,09 m.)</option>
+			<option value="1125,31#42.021283#2.536475">El Far (1125,31 m.)</option>
+			<option value="815,64#41.655333#2.128278">El Farell (815,64 m.)</option>
+			<option value="1124,81#42.258817#2.705897">El Mont (1124,81 m.)</option>
+			<option value="1344,93#40.734128#0.227314">El Negrell (1344,93 m.)</option>
+			<option value="1764,62#42.202709#1.948933">El Pedró (1764,62 m.)</option>
+			<option value="607,68#42.282053#3.243797">El Pení (607,68 m.)</option>
+			<option value="2039,87#42.280717#2.209897">El Taga (2039,87 m.)</option>
+			<option value="2748,69#42.568414#1.014839">Els Encantats (2748,69 m.)</option>
+			<option value="2882,69#42.643175#0.705383">Era Forcanada (2882,69 m.)</option>
+			<option value="2714,29#42.415439#2.247806">Gra de Fajol (2714,29 m.)</option>
+			<option value="2933,4#42.589361#0.937806">Gran Tuc de Colomèrs (2933,4 m.)</option>
+			<option value="942,3#40.940522#0.586047">La Creu de Santos (942,3 m.)</option>
+			<option value="1103,25#41.641289#2.017917">La Mola (1103,25 m.)</option>
+			<option value="1054,94#41.257981#1.055778">La Mussara (1054,94 m.)</option>
+			<option value="1705,44#41.789453#2.443914">Les Agudes (1705,44 m.)</option>
+			<option value="1697,22#41.808794#2.382739">Matagalls (1697,22 m.)</option>
+			<option value="1529,32#42.165506#2.289692">Milany (1529,32 m.)</option>
+			<option value="918,61#41.092364#0.862886">Miranda de Llaberia (918,61 m.)</option>
+			<option value="921,88#41.108911#0.874008">Mola de Colldejou (921,88 m.)</option>
+			<option value="711,24#41.01625#0.785433">Mola de Genessies (711,24 m.)</option>
+			<option value="1189,26#42.116658#1.581861">Mola de Lord (1189,26 m.)</option>
+			<option value="1440,98#40.803106#0.343092">Mont Caro (1440,98 m.)</option>
+			<option value="2864,4#42.708139#1.17105">Mont-roig (2864,4 m.)</option>
+			<option value="2833,15#42.633336#0.875344">Montardo (2833,15 m.)</option>
+			<option value="657,57#41.345853#1.885013">Montau (657,57 m.)</option>
+			<option value="2172,69#42.708556#0.758769">Montcorbison (2172,69 m.)</option>
+			<option value="2905,05#42.601744#1.361556">Monteixo (2905,05 m.)</option>
+			<option value="1610,78#42.363017#2.456067">Montfalgars (1610,78 m.)</option>
+			<option value="177,72#41.363992#2.16476">Montjuïc (177,72 m.)</option>
+			<option value="2517,7#42.785242#0.758747">Montlude (2517,7 m.)</option>
+			<option value="2883,05#42.490061#1.024461">Montsent de Pallars (2883,05 m.)</option>
+			<option value="292,52#40.682222#0.554444">Montsianell (292,52 m.)</option>
+			<option value="752,4#40.956864#0.338292">Muntanya de Santa Bàrbara (752,4 m.)</option>
+			<option value="307,87#42.052175#3.131672">Muntanya del Montgrí (307,87 m.)</option>
+			<option value="485,19#41.981422#2.905614">Muntanya dels Àngels (485,19 m.)</option>
+			<option value="2506,37#42.237039#1.697192">Pedraforca (2506,37 m.)</option>
+			<option value="1543,17#42.220194#2.049611">Pedró de Tubau (1543,17 m.)</option>
+			<option value="2386,49#42.184725#1.520894">Pedró dels Quatre Batlles (2386,49 m.)</option>
+			<option value="2275,92#42.306289#1.842464">Penyes Altes de Moixeró (2275,92 m.)</option>
+			<option value="2881,25#42.426194#2.232906">Pic de Bastiments (2881,25 m.)</option>
+			<option value="3029,18#42.591358#0.827811">Pic de Comaloforno (3029,18 m.)</option>
+			<option value="2869,51#42.423919#2.213836">Pic de l'Infern (2869,51 m.)</option>
+			<option value="2904,9#42.468107#1.657244">Pic de la Portelleta (2904,9 m.)</option>
+			<option value="2982,72#42.540517#1.011972">Pic de Peguera (2982,72 m.)</option>
+			<option value="2788,82#42.514447#1.385131">Pic de Salòria (2788,82 m.)</option>
+			<option value="3072,77#42.668694#1.387475">Pic de Sotllo (3072,77 m.)</option>
+			<option value="2950,16#42.554961#0.979419">Pic de Subenuix (2950,16 m.)</option>
+			<option value="3143,45#42.66695#1.397894">Pica d'Estats (3143,45 m.)</option>
+			<option value="458,88#41.753386#1.066974">Pilar d'Almenara (458,88 m.)</option>
+			<option value="532,71#41.889119#2.997292">Puig d'Arques (532,71 m.)</option>
+			<option value="1373,35#42.314097#2.632339">Puig de Bassegoda (1373,35 m.)</option>
+			<option value="861,32#41.337128#1.471597">Puig de la Talaia (861,32 m.)</option>
+			<option value="242,14#42.13186#2.76324">Puig de Sant Martirià (242,14 m.)</option>
+			<option value="518,69#41.757286#2.928278">Puig de ses Cadiretes (518,69 m.)</option>
+			<option value="1257,06#42.482072#2.946969">Puig Neulós (1257,06 m.)</option>
+			<option value="808,8#41.702975#2.241281">Puiggraciós (808,8 m.)</option>
+			<option value="2409,15#42.300492#1.985557">Puigllançada (2409,15 m.)</option>
+			<option value="2909,85#42.383311#2.116722">Puigmal (2909,85 m.)</option>
+			<option value="2915,01#42.487564#1.761808">Puigpedrós (2915,01 m.)</option>
+			<option value="1514,28#42.125111#2.387933">Puigsacalm (1514,28 m.)</option>
+			<option value="1027,25#42.115044#2.581519">Puigsallança (1027,25 m.)</option>
+			<option value="3014,02#42.585697#0.880308">Punta Alta de Comalesbienes (3014,02 m.)</option>
+			<option value="494,63#41.388689#0.401375">Punta de Montmaneu (494,63 m.)</option>
+			<option value="923,52#41.341417#0.878111">Punta del General (923,52 m.)</option>
+			<option value="1450,9#42.422778#2.727222">Roc del Comptador (1450,9 m.)</option>
+			<option value="1437,53#42.021294#1.010278">Roca Alta (1437,53 m.)</option>
+			<option value="1163,12#41.288567#0.891242">Roca Corbatera (1163,12 m.)</option>
+			<option value="1017,14#40.901278#0.326722">Roques de Benet (1017,14 m.)</option>
+			<option value="1675,36#42.0405#0.766231">Sant Alís (1675,36 m.)</option>
+			<option value="1351,08#42.181667#1.030278">Sant Corneli (1351,08 m.)</option>
+			<option value="1235,56#41.605344#1.811325">Sant Jeroni (1235,56 m.)</option>
+			<option value="499,01#41.515556#2.326667">Sant Mateu (499,01 m.)</option>
+			<option value="1202,83#41.923117#2.533014">Sant Miquel de Solterra (1202,83 m.)</option>
+			<option value="681,96#42.313528#3.167667">Sant Salvador Saverdera (681,96 m.)</option>
+			<option value="1057,98#41.747453#2.295994">Tagamanent (1057,98 m.)</option>
+			<option value="2562,07#42.287017#1.584379">Torreta de Cadí (2562,07 m.)</option>
+			<option value="763,05#40.613367#0.530144">Torreta de Montsià (763,05 m.)</option>
+			<option value="2536,41#42.320583#1.892639">Tosa d'Alp (2536,41 m.)</option>
+			<option value="619,6#41.556975#1.581486">Tossa de Montbui (619,6 m.)</option>
+			<option value="1200,88#41.325994#1.004181">Tossal de la Baltasana (1200,88 m.)</option>
+			<option value="1349,82#40.732239#0.169372">Tossal del Rei (1349,82 m.)</option>
+			<option value="803,61#41.468845#1.112839">Tossal Gros de Vallbona (803,61 m.)</option>
+			<option value="2679,25#42.709231#1.012322">Tuc de Marimanha (2679,25 m.)</option>
+			<option value="2881,59#42.793697#0.917204">Tuc de Maubèrme (2881,59 m.)</option>
+			<option value="3010,08#42.629469#0.698567">Tuc de Molières (3010,08 m.)</option>
+			<option value="536,12#41.556936#2.338508">Turó de Céllecs (536,12 m.)</option>
+			<option value="1705,78#41.772528#2.4375">Turó de l'Home (1705,78 m.)</option>
+			<option value="152,02#41.464778#2.231142">Turó de Montigalà (152,02 m.)</option>
+			<option value="758,01#41.661375#2.576331">Turó Gros (758,01 m.)</option>
+			<option value="766,05#42.141944#2.541389">Volcà de Santa Margarida (766,05 m.)</option>
+			<option value="532,28#42.187778#2.488333">Volcà del Montsacopa (532,28 m.)</option>
+		</select>
 
 	</div>
+
+	<div class="icgclogo"></div>
 
 	<div id="mapa3d"></div>
 
 	</div>
-
-	<!-- Modal -->
-	<div class="modal fade" id="link_modal" tabindex="-1" role="dialog" aria-labelledby="link_modalLabel" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-					<h4 class="modal-title" id="link_modalLabel">Enllaçar</h4>
-				</div>
-				<div class="modal-body">
-
-					<div class="form-group">
-						<label for="urlMap">
-							<span lang="ca">Per enllaçar amb aquest mapa, copieu i enganxeu el següent text</span>:</label>
-						<input type="text" id="urlMap" class="form-control">
-					</div>
-					<div class="form-group">
-						<label for="iframeMap">
-							<span lang="ca">Per inserir aquest mapa al vostre web, copieu i enganxeu el següent text</span>:
-						</label>
-						<textarea id="iframeMap" rows="3" class="form-control"></textarea>
-
-						<div id="urlVisorMap">
-							<a lang="ca" target="_blank" href="">Provar vincle&nbsp;&nbsp;
-								<span class="glyphicon glyphicon-share-alt"></span>
-							</a>
-						</div>
-					</div>
-
-				</div>
-				<!--fi modal body-->
-
-			</div>
-			<!-- fi modal content-->
-
-		</div>
-	</div>
-	<!--Fi modal -->
 
 	<script src="js/test-webgl.js"></script>
 	<script src="Cesium/Cesium.js"></script>
@@ -249,7 +163,7 @@
 	<script src="llibreries/js/purl.js"></script>
 	<script src="cesium-navigation/cesium-navigation.js"></script>
 	<script src="js/100cims-1.0.0.js" type="text/javascript"></script>
-	<script src="js/utils.js" type="text/javascript"></script>
+	<!--script src="js/utils.js" type="text/javascript"></script-->
 	<script src="betaserver.google-analytics.js"></script>
 
 </body>

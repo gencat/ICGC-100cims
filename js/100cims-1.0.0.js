@@ -17,8 +17,8 @@ var ellipsoid;
 var viewer;
 jQuery(document).ready(function () {
 	if (supportsWebgl()) {
+		/*
 		function capa(valor, actiu) {
-
 			if (valor == "ombrejat") {
 				ombrejat_lyr.show = actiu;
 			} else if (valor == "toponimia") {
@@ -41,7 +41,7 @@ jQuery(document).ready(function () {
 
 			}
 
-		}
+		}*/
 
 		Cesium.Camera.DEFAULT_VIEW_RECTANGLE = Cesium.Rectangle.fromDegrees(west, south, east, north);
 
@@ -49,8 +49,9 @@ jQuery(document).ready(function () {
 			placeholder: "Selecciona un cim",
 			width: 'off'
 		}).on("select2-selecting", function (e) {
-
-			anarA(e.val);
+			//anarA(e.val);
+			var cimName = clearName(e.choice.text);
+			selectEntityByName(cimName);
 		});
 
 		if (navigator.appVersion.indexOf('Chrome') != -1) {
@@ -72,13 +73,11 @@ jQuery(document).ready(function () {
 		}
 
 		viewer = new Cesium.Viewer('mapa3d', {
-
 			imageryProvider: imPro,
-
 			timeline: false,
 			navigationHelpButton: false,
 			scene3DOnly: true,
-			fullscreenButton: true,
+			fullscreenButton: false,
 			baseLayerPicker: false,
 			homeButton: false,
 			infoBox: true,
@@ -86,11 +85,10 @@ jQuery(document).ready(function () {
 			animation: false,
 			geocoder: false,
 			targetFrameRate: 40,
-			vrButton: true,
+			vrButton: false,
 			showRenderLoopErrors: false,
 			useDefaultRenderLoop: true,
 			sceneMode: Cesium.SceneMode.SCENE3D,
-
 			terrainProvider: new Cesium.CesiumTerrainProvider({
 				//url : 'https://cesiumjs.org/stk-terrain/tilesets/world/tiles'
 				url: 'http://betaserver.icgc.cat/cesium/terrenys/demextes'
@@ -105,7 +103,7 @@ jQuery(document).ready(function () {
 		viewer.scene.fog.enabled = true;
 		viewer.scene.fog.density = 0.0002;
 		viewer.scene.fog.screenSpaceErrorFactor = 2;
-		scene.frameState.creditDisplay.addDefaultCredit(new Cesium.Credit('ICGC', '/cesium/img/icgc.png', 'http://www.icgc.cat/'));
+		//scene.frameState.creditDisplay.addDefaultCredit(new Cesium.Credit('ICGC', '/css/img/ICGC_logo_txt.svg', 'http://www.icgc.cat/'));
 
 		viewer.infoBox.viewModel.sanitizer = function (input) {
 
@@ -128,7 +126,8 @@ jQuery(document).ready(function () {
 			orto_lyr.alpha = 0.3
 			orto_lyr.show = false;
 		}
-
+		
+		/*
 		var orto56_lyr = layers.addImageryProvider(new Cesium.createOpenStreetMapImageryProvider({
 			url: 'http://mapcache.icc.cat/map/bases_noutm/wmts/topo/GRID3857/',
 			fileExtension: 'jpeg'
@@ -165,6 +164,7 @@ jQuery(document).ready(function () {
 		}));
 
 		rutes_lyr.show = false;
+		*/
 
 		var cims_lyr = new Cesium.GeoJsonDataSource();
 		viewer.dataSources.add(cims_lyr);
@@ -175,23 +175,24 @@ jQuery(document).ready(function () {
 		var modelMatrix = Cesium.Transforms.eastNorthUpToFixedFrame(
 			Cesium.Cartesian3.fromDegrees(1.70325, 42.20398, 3000));
 
-
+		/*
 		jQuery("input:checkbox").on('click', function (e) {
-
 			capa(this.value, this.checked);
 		});
 
 		jQuery("#a_link").on('click', function (e) {
 			$('#link_modal').modal('show');
 			generaVincle();
-
 		});
+		*/
 
+		/*
 		if ($(document).width() < 850) {
 			hihaEmbed2();
 		}
+		*/
 
-
+		/*
 		function reprodueixVincle() {
 
 			var url = $.url().param();
@@ -288,10 +289,30 @@ jQuery(document).ready(function () {
 			}
 
 		}
-
+		
 		reprodueixVincle();
+		*/
+
+		camera.flyTo({
+			destination: Cesium.Cartesian3.fromDegrees(1.70632, 42.20390, 16000),
+			duration: 0,
+			complete: function () {
+				setTimeout(function () {
+					camera.flyTo({
+						destination: Cesium.Cartesian3.fromDegrees(1.70325, 42.20398, 5000),
+						orientation: {
+							heading: Cesium.Math.toRadians(0.0),
+							pitch: Cesium.Math.toRadians(-45.0), //tilt
+						},
+						easingFunction: Cesium.EasingFunction.LINEAR_NONE
+					});
+				}, 1000);
+			}
+		});
+		
 		navigationInitialization('mapa3d', viewer);
 
+		/*
 		function generaVincle() {
 
 			var cameraPos = viewer.camera._position.x + ',' + viewer.camera._position.y + ',' + viewer.camera._position.z + ','
@@ -316,11 +337,12 @@ jQuery(document).ready(function () {
 			$('#iframeMap').val('<iframe width="100%" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="' + _url + '&embed=1" ></iframe>');
 
 		}
+		*/
 
+		/*
 		function hihaEmbed() {
 			hihaEmbed2();
 			jQuery("#sp_finestra").show();
-
 		}
 
 		function hihaEmbed2() {
@@ -329,7 +351,9 @@ jQuery(document).ready(function () {
 			jQuery("#llegenda0").hide();
 			jQuery("#llegenda").css('width', '75px');
 		}
+		*/
 
+		/*
 		jQuery("#sp_llegenda").on('click', function (e) {
 
 			if (jQuery("#sp_llegenda").hasClass('glyphicon-collapse-up')) {
@@ -347,6 +371,7 @@ jQuery(document).ready(function () {
 			jQuery("#llegenda0").toggle();
 
 		});
+		*/
 
 		function anarA(valor) {
 
@@ -365,12 +390,9 @@ jQuery(document).ready(function () {
 					complete: function () {
 						eye = new Cesium.Cartesian3.fromDegrees(parseFloat(zxy[2]), parseFloat(zxy[1]), alt * 3);
 
-						target = Cesium.Cartesian3.add(eye, new Cesium.Cartesian3(viewer.camera._directionWC.x, viewer.camera._directionWC.y, viewer.camera._directionWC.z),
-
-							new Cesium.Cartesian3());
+						target = Cesium.Cartesian3.add(eye, new Cesium.Cartesian3(viewer.camera._directionWC.x, viewer.camera._directionWC.y, viewer.camera._directionWC.z), new Cesium.Cartesian3());
 						up = new Cesium.Cartesian3(viewer.camera._up.x, viewer.camera._up.y, viewer.camera._up.z);
-
-						angle = 0.15 - viewer.camera.tilt;
+						angle = 0.15 - viewer.camera.tilt;		
 
 					}
 				});
@@ -385,17 +407,46 @@ jQuery(document).ready(function () {
 				viewer.scene.camera.flyTo({
 					destination: Cesium.Cartesian3.fromDegrees(parseFloat(zxy[2]), parseFloat(zxy[1]), parseInt(al.replace(",", ".")) * 5),
 					duration: 2
-
 				});
 			}
 
 		}
 
+		function clearName(name){
+			return name.match(/^[^\(]*/)[0].trim();
+		}
+
+		function selectEntityByName(name){
+
+			for(i=0; i < cims_lyr.entities.values.length; i++){
+                
+				if(cims_lyr.entities.values[i]._name === name){
+	
+					viewer.selectedEntity = cims_lyr.entities.values[i];
+					flyToEntity(cims_lyr.entities.values[i]);
+				}
+	
+			}
+
+		}
+
+		function flyToEntity(entity){
+			var cota = entity.properties.Cota;
+			cota = cota.match(/^[^,]*/)[0].trim();
+			cota = cota.replace(/\./g,'');
+			cota = parseInt(cota) * 0.8;
+			viewer.flyTo(entity, {
+				offset : new Cesium.HeadingPitchRange(Cesium.Math.toRadians(0.0),  Cesium.Math.toRadians(-45.0), cota)
+			});
+		}
+
+		/*
 		function carregaJSONComarques() {
 			return jQuery.ajax({
 				url: 'capitals_comarcals_4326.geojson',
 				dataType: 'json'
 			}).promise();
 		}
+		*/
 	}
 });

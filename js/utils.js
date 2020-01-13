@@ -284,7 +284,6 @@ function obteColorMuc(codi) {
 }
 var handler;
 function activaEvents(div) {
-
 	handler = new Cesium.ScreenSpaceEventHandler(scene.canvas);
 	handler.setInputAction(function (movement) {
 		miraPosicio(div);
