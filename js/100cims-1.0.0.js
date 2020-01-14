@@ -434,9 +434,9 @@ jQuery(document).ready(function () {
 			var cota = entity.properties.Cota;
 			cota = cota.match(/^[^,]*/)[0].trim();
 			cota = cota.replace(/\./g,'');
-			cota = parseInt(cota) * 0.8;
+			cota = parseInt(cota) * 1.3;
 			viewer.flyTo(entity, {
-				offset : new Cesium.HeadingPitchRange(Cesium.Math.toRadians(0.0),  Cesium.Math.toRadians(-45.0), cota)
+				offset : new Cesium.HeadingPitchRange(Cesium.Math.toRadians(0.0),  Cesium.Math.toRadians(-30.0), cota)
 			});
 		}
 
